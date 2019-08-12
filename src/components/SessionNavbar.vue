@@ -1,11 +1,11 @@
 <template>
   <v-toolbar flat app dense>
     <v-btn flat href="/">
-      <v-icon>arrow_back_ios</v-icon>Back
+      <v-icon left>fas fa-chevron-left</v-icon>Back
     </v-btn>
     <v-spacer></v-spacer>
     <v-btn flat @click="goBack()">
-      <v-icon left>star_border</v-icon>Favorite
+      <v-icon left>far fa-star</v-icon>Save
     </v-btn>
   </v-toolbar>
 </template>
