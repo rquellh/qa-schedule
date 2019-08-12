@@ -1,42 +1,46 @@
 <template>
-  <div class="pb-3">
-    <div class="pl-4 time-font font-weight-bold">{{sessions.edges[0].node.time}}</div>
-    <v-expansion-panel popout>
-      <v-expansion-panel-content
-        v-for="(session, index) in sessions.edges"
-        :key="index"
-        :class="timeFiltered"
-      >
-        <div slot="header">
-          <v-container ma-0 pa-1 fluid>
-            <v-layout row ma-0 align-center wrap>
-              <v-flex xs12 md8>{{session.node.title}}</v-flex>
-              <v-flex xs12 md2 :class="['grey--text text--darken-1', {'pt-2' : $vuetify.breakpoint.smAndDown}]">{{session.node.speaker}}</v-flex>
-              <v-flex xs12 md2 :class="['text-md-right', {'pt-2' : $vuetify.breakpoint.smAndDown}]"  pr-3 >
-                <v-chip :class="roomFiltered([index])">{{session.node.room}}</v-chip>
-              </v-flex>
-            </v-layout>
-          </v-container>
+  <v-container fluid>
+    <v-layout row wrap fluid>
+      <v-flex>
+        <div class="pb-3">
+          <div class="time-font font-weight-bold">{{sessions.edges[0].node.time}}</div>
+          <v-list two-line>
+            <v-list-tile
+              v-for="(session, index) in sessions.edges"
+              :key="index"
+              :class="timeFiltered"
+              :href="`./${session.node.year}/${removeSpaces(session.node.speaker)}`"
+            >
+              <v-list-tile-content>
+                <v-list-tile-title>{{session.node.title}}</v-list-tile-title>
+                <v-list-tile-sub-title>
+                    <v-layout ma-0 pa-0>
+                      <v-flex xs6>{{session.node.speaker}}</v-flex>
+                      <v-flex xs6><v-icon :class="[roomFiltered([index]), 'small-icon']">fas fa-circle</v-icon> {{session.node.room}}</v-flex>
+                    </v-layout>
+                </v-list-tile-sub-title>
+              </v-list-tile-content>
+              <v-list-tile-action>
+                <v-btn icon ripple>
+                  <v-icon small :color="active ? 'teal' : 'grey'">far fa-star</v-icon>
+                </v-btn>
+              </v-list-tile-action>
+            </v-list-tile>
+          </v-list>
         </div>
-        <v-card>
-          <v-card-text class="grey lighten-4">
-            <p>{{session.node.abstract}}</p>
-            <v-spacer />
-            <div class="ma-5">
-              <v-btn class="right" :href="`./${session.node.year}/${removeSpaces(session.node.speaker)}`" outline small color="primary">More Information</v-btn>
-            </div>
-          </v-card-text>
-        </v-card>
-      </v-expansion-panel-content>
-    </v-expansion-panel>
-  </div>
+      </v-flex>
+    </v-layout>
+  </v-container>
 </template>
+
+
 
 <script>
 export default {
   props: ["sessions"],
   data: function() {
     return {
+      active: false,
       timeFiltered: `t${this.sessions.edges[0].node.time.replace(/:|-| /g, "")}`
     };
   },
@@ -47,13 +51,18 @@ export default {
         .toLowerCase();
     },
     removeSpaces: function(text) {
-      return text.replace(/\s/g, "")
+      return text.replace(/\s/g, "");
     }
   }
 };
 </script>
 
 <style scoped>
+.small-icon {
+  font-size: .75rem;
+  vertical-align: middle
+}
+
 .t800900 {
   position: relative;
 }
@@ -140,25 +149,25 @@ export default {
   background-color: #e91e63;
 }
 .cartoonroom {
-  background: #90caf9;
+  color: #90caf9;
 }
 .greathall12 {
-  background: #b39ddb;
+  color: #b39ddb;
 }
 .greathall3 {
-  background: #a5d6a7;
+  color: #a5d6a7;
 }
 .interfaithroom {
-  background: #fff59d;
+  color: #fff59d;
 }
 .studentalumniroom {
-  background: #ef9a9a;
+  color: #ef9a9a;
 }
 .westballroom {
-  background: #ffcc80;
+  color: #ffcc80;
 }
 .eastballroom {
-  background: #80cbc4;
+  color: #80cbc4;
 }
 .right {
   right: 5%;
@@ -166,7 +175,7 @@ export default {
   position: absolute;
 }
 .time-font {
-  font-size: 2rem
+  font-size: 2rem;
 }
 </style>
 

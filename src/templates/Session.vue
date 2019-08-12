@@ -3,7 +3,7 @@
     <SessionNavbar />
     <Layout>
       <v-content class="my-5">
-        <v-container ma-0 pa-0 fluid>
+        <v-container ma-0 pa-0 fluid align-center>
           <v-layout ma-0 pa-0 row wrap>
             <v-flex xs12 sm4 pa-3 align-self-center>
               <v-img

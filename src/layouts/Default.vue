@@ -36,6 +36,7 @@ body {
 
 .layout {
   max-width: 1600px;
-  margin: 0 auto;
+  width: 100%;
+  margin: 0px auto
 }
 </style>
