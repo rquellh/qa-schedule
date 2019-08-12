@@ -1,5 +1,6 @@
 <template>
   <v-app>
+    <SessionNavbar />
     <Layout>
       <v-content class="my-5">
         <v-container ma-0 pa-0 fluid>
@@ -67,10 +68,12 @@ query Session ($path: String!) {
 
 <script>
 import Layout from "@/layouts/Default";
+import SessionNavbar from "@/components/SessionNavbar"
 
 export default {
   components: {
-    Layout
+    Layout,
+    SessionNavbar
   },
   metaInfo() {
     return {

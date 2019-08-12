@@ -1,6 +1,6 @@
 <template>
   <v-toolbar flat app dense>
-    <v-btn flat @click="goBack()">
+    <v-btn flat href="/">
       <v-icon>arrow_back_ios</v-icon>Back
     </v-btn>
     <v-spacer></v-spacer>
