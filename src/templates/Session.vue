@@ -30,13 +30,13 @@
                   {{ $page.session.speaker }}
                   <span class="pl-5">
                     <v-btn flat icon color="primary" class="px-3">
-                      <v-icon class="primary--text px-3">fab fa-linkedin</v-icon>
+                      <v-icon class="px-3">fab fa-linkedin</v-icon>
                     </v-btn>
                     <v-btn flat icon color="primary" class="px-3">
-                      <v-icon class="primary--text px-3">fab fa-twitter</v-icon>
+                      <v-icon class="px-3">fab fa-twitter</v-icon>
                     </v-btn>
                     <v-btn flat icon color="primary" class="px-3">
-                      <v-icon class="primary--text px-3">fas fa-globe</v-icon>
+                      <v-icon class="px-3">fas fa-globe</v-icon>
                     </v-btn>
                   </span>
                 </div>

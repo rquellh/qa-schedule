@@ -17,7 +17,7 @@
 
 <script>
 import SessionList from "@/components/SessionList";
-import Navbar from "@/components/SessionNavbar"
+import Navbar from "@/components/IndexNavbar"
 
 export default {
   components: {

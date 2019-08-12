@@ -1,7 +1,7 @@
 <template>
   <v-footer app absolute dark height="auto">
-    <v-card class="flex" flat tile>
-      <v-card-title class="dark-background">
+    <v-card class="flex" flat tile color="primary">
+      <v-card-title pa-0>
         <v-container ma-0 pa-0 fluid>
           <v-layout row align-center fill-height class="text-xs-center" ma-0 pa-0>
             <v-flex xs4 md4 :class="[{'caption' : $vuetify.breakpoint.smAndDown}]">
@@ -53,10 +53,4 @@ export default {
 };
 </script>
 
-
-<style scoped>
-.dark-background {
-  background-color: #151d2b;
-}
-</style>
 
