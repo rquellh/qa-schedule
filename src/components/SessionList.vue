@@ -1,33 +1,34 @@
 <template>
-  <v-container fluid>
+  <v-container py-0 fluid>
     <v-layout row wrap fluid>
       <v-flex>
-        <div class="pb-3">
-          <div class="time-font font-weight-bold">{{sessions.edges[0].node.time}}</div>
-          <v-list two-line>
-            <v-list-tile
-              v-for="(session, index) in sessions.edges"
-              :key="index"
-              :class="timeFiltered"
-              :href="`./${session.node.year}/${removeSpaces(session.node.speaker)}`"
-            >
-              <v-list-tile-content>
-                <v-list-tile-title>{{session.node.title}}</v-list-tile-title>
-                <v-list-tile-sub-title>
-                    <v-layout ma-0 pa-0>
-                      <v-flex xs6>{{session.node.speaker}}</v-flex>
-                      <v-flex xs6><v-icon :class="[roomFiltered([index]), 'small-icon']">fas fa-circle</v-icon> {{session.node.room}}</v-flex>
-                    </v-layout>
-                </v-list-tile-sub-title>
-              </v-list-tile-content>
-              <v-list-tile-action>
-                <v-btn icon ripple>
-                  <v-icon small :color="active ? 'teal' : 'grey'">far fa-star</v-icon>
-                </v-btn>
-              </v-list-tile-action>
-            </v-list-tile>
-          </v-list>
-        </div>
+        <v-list two-line>
+          <v-subheader class="title font-weight-bold">{{sessions.edges[0].node.time}}</v-subheader>
+          <v-list-tile
+            v-for="(session, index) in sessions.edges"
+            :key="index"
+            :class="timeFiltered"
+            :href="`./${session.node.year}/${removeSpaces(session.node.speaker)}`"
+          >
+            <v-list-tile-content>
+              <v-list-tile-title>{{session.node.title}}</v-list-tile-title>
+              <v-list-tile-sub-title>
+                <v-layout ma-0 pa-0 wrap>
+                  <v-flex xs12 sm6>{{session.node.speaker}}</v-flex>
+                  <v-flex xs12 sm6>
+                    <v-icon :class="[roomFiltered([index]), 'small-icon']">fas fa-circle</v-icon>
+                    {{session.node.room}}
+                  </v-flex>
+                </v-layout>
+              </v-list-tile-sub-title>
+            </v-list-tile-content>
+            <v-list-tile-action>
+              <v-btn icon ripple @click.prevent.stop="active = !active">
+                <v-icon small :color="active ? 'teal' : 'grey'">far fa-star</v-icon>
+              </v-btn>
+            </v-list-tile-action>
+          </v-list-tile>
+        </v-list>
       </v-flex>
     </v-layout>
   </v-container>
@@ -59,8 +60,8 @@ export default {
 
 <style scoped>
 .small-icon {
-  font-size: .75rem;
-  vertical-align: middle
+  font-size: 0.75rem;
+  vertical-align: middle;
 }
 
 .t800900 {
