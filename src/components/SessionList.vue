@@ -17,7 +17,12 @@
                 <v-list-tile-title>{{session.node.title}}</v-list-tile-title>
                 <v-list-tile-sub-title>
                   <v-layout ma-0 pa-0 wrap>
-                    <v-flex xs12 sm6>{{session.node.speaker}}</v-flex>
+                    <v-flex xs12 sm6>
+                      {{session.node.speaker}}
+                      <span
+                        v-if="session.node.speaker2"
+                      >& {{session.node.speaker2}}</span>
+                    </v-flex>
                     <v-flex xs12 sm6>
                       <v-icon :class="[roomFiltered([index]), 'small-icon']">fas fa-circle</v-icon>
                       {{session.node.room}}

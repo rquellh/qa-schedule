@@ -10,7 +10,6 @@
         <SessionList :sessions="$page.session5" />
         <SessionList :sessions="$page.session6" />
         <SessionList :sessions="$page.session7" />
-        <div>{{favorites}}</div>
       </v-content>
     </Layout>
   </v-app>
@@ -49,6 +48,7 @@ query currentSessions {
     edges {
       node {
         speaker
+        speaker2
         title
         abstract
         time
@@ -65,6 +65,7 @@ query currentSessions {
     edges {
       node {
         speaker
+        speaker2
         title
         abstract
         time
@@ -81,6 +82,7 @@ query currentSessions {
     edges {
       node {
         speaker
+        speaker2
         title
         abstract
         time
@@ -97,6 +99,7 @@ query currentSessions {
     edges {
       node {
         speaker
+        speaker2
         title
         abstract
         time
@@ -113,6 +116,7 @@ query currentSessions {
     edges {
       node {
         speaker
+        speaker2
         title
         abstract
         time
@@ -129,6 +133,7 @@ query currentSessions {
     edges {
       node {
         speaker
+        speaker2
         title
         abstract
         time
@@ -145,6 +150,7 @@ query currentSessions {
     edges {
       node {
         speaker
+        speaker2
         title
         abstract
         time
