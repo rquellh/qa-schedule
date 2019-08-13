@@ -5,5 +5,6 @@ dist
 src/.temp
 node_modules
 dist
+.github
 .env
 .env.*
