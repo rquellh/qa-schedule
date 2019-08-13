@@ -8,5 +8,5 @@ module.exports = {
   siteName: 'QA or the Highway',
   plugins: [],
   siteUrl: 'https://rquellh.github.io',
-  pathPrefix: '/qaorthehighway-gridsome'
+  pathPrefix: '/qa-schedule'
 }
