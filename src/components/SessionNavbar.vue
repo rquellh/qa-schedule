@@ -4,16 +4,39 @@
       <v-icon left small>fas fa-chevron-left</v-icon>Back
     </v-btn>
     <v-spacer></v-spacer>
-    <v-btn flat @click="goBack()">
-      <v-icon left small>far fa-star</v-icon>Save
+    <v-btn
+      flat
+      @click="favorites.sessions[indexOf(speaker)].saved = !favorites.sessions[indexOf(speaker)].saved"
+    >
+      <div v-if="favorites.sessions[indexOf(speaker)].saved">
+        <v-icon left small>fas fa-star</v-icon>Saved
+      </div>
+      <div v-else>
+        <v-icon left small>far fa-star</v-icon>Save
+      </div>
     </v-btn>
   </v-toolbar>
 </template>
 
 <script>
+import favorites from "@/data/favorites.json";
+
 export default {
+  props: ["speaker"],
   data() {
-    return {};
+    return {
+      favorites
+    };
+  },
+  methods: {
+    indexOf: function(speakerName) {
+      var indexPos = this.favorites.sessions
+        .map(function(instance) {
+          return instance.speaker;
+        })
+        .indexOf(speakerName);
+      return indexPos;
+    }
   }
 };
 </script>

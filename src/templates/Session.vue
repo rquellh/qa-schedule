@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <SessionNavbar />
+    <SessionNavbar :speaker="$page.session.speaker"/>
     <Layout>
       <v-content class="my-1">
         <v-container ma-0 pa-0 fluid align-center>
