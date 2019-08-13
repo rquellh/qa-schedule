@@ -4,14 +4,14 @@
       <v-flex>
         <v-list two-line>
           <v-subheader class="title font-weight-bold">{{sessions.edges[0].node.time}}</v-subheader>
-          <v-list-tile
+          <div
+            v-show="favorites.sessions[indexOf(session.node.speaker)].saved || !(favorites.filterall)"
             v-for="(session, index) in sessions.edges"
             :key="index"
-            :class="timeFiltered"
-            :href="`./${session.node.year}/${removeSpaces(session.node.speaker)}`"
           >
-            <div
-              v-show="favorites.sessions[indexOf(session.node.speaker)].saved || !(favorites.filterall)"
+            <v-list-tile
+              :class="timeFiltered"
+              :href="`./${session.node.year}/${removeSpaces(session.node.speaker)}`"
             >
               <v-list-tile-content>
                 <v-list-tile-title>{{session.node.title}}</v-list-tile-title>
@@ -39,8 +39,8 @@
                   <v-icon v-else small color="grey">far fa-star</v-icon>
                 </v-btn>
               </v-list-tile-action>
-            </div>
-          </v-list-tile>
+            </v-list-tile>
+          </div>
         </v-list>
       </v-flex>
     </v-layout>
