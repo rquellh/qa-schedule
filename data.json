@@ -1,0 +1,300 @@
+{
+    "sessions": [
+        {
+            "speaker": "Ingo Philipp",
+            "bio": "Ingo Philipp, Distinguished Evangelist at Tricentis, champions the methodologies, best practices, and technologies at the core of the company’s Continuous Testing solution. His insights on rethinking software testing and passion for elevating the role of the software tester have made him a sought-after speaker/author across the global software testing community. In his previous position as a senior product manager at Tricentis, he orchestrated the development and product marketing for exploratory testing, test management, test conception, test design, and test automation technologies. Before Ingo entered the multifaceted world of software testing and development, he worked as a theoretical astrophysicist in the field of high-energy particle physics and computational fluid dynamics at the University of Vienna and the Berlin Institute for Technology. He holds a Master of Science degree.",
+            "title": "Digital Transformation Requires Continuous Testing",
+            "abstract": "Digital disruption is omnipresent. Organizations are asked (more than ever before) to constantly reinvent their businesses at the speed of ideas and to keep their customers at their epicenter at the same time. Venerable companies have become comfortable breaking down silos, changing cultural norms and driving efficiency at all costs to always be one step ahead of their competition. It is not any longer the strongest that survives, nor the most intelligent that survives. It is the one that is most adaptable to change. Change seems to be the only thing constant, the new currency, the silver bullet to stay competitive. Big words, such as DevOps, emerged out of this fear to be second-class, and even managed to penetrate into our daily testing routines. The ability to change fast while delivering high quality has become imperative for all businesses (small, medium, large). This level of transformation requires testing to no longer be a bottleneck. It requires continuous testing to make sure that the quality of the software that is being developed is measured continuously. In this talk, Ingo Philipp outlines how to unfold continuous testing into reality.",
+            "time": "8:00 - 9:00",
+            "room": "East Ballroom",
+            "picture": ""
+        },
+        {
+            "speaker": "Joseph Ours",
+            "bio": "As Centric Consulting’s National Modern Software Delivery Lead, Joseph Ours has nearly two decades of career experience in Information Technology and Certified Project Management consulting. He believes in finding ways to harmoniously work with all core IT competencies, and as such as works as a developer, tester, business analyst, and program manager. His strategic thought process and ability to translate vision into action has resulted in many large successful initiatives. Joseph’s expertise has also led to numerous national speaking engagements. He earned an MBA, and two bachelor’s degrees: in Electronic Engineering Technology, and in Technical Management. He is also PMP certified by the Project Management Institute. Joseph lives in Columbus, Ohio, and has six adult children. He is an early adopter and active technology enthusiast.",
+            "title": "DevOps: The Big Picture for Testers",
+            "abstract": "If you put 50 folks from various parts of IT into a room, you'll get 20 different definitions of DevOps and 30 opinions as to why an organization should embrace it.  Therein lies a key challenge with any DevOps discussion.  Those individual views tend to be myopically focused on a specific area of interest to that single individual.  A tester may focus on automation or exploratory testing being tightly integrated, a developer may view DevOps as an extension of Continous Integration activities and tools.  A Scrum Master may see it as extending Agile into the Operations space.  Infrastructure may see it as cloud practices or Infrastructure as Code.  The truth is, DevOps is a bit of all of that - but it is so much more as well.  But if it is more than that, what does that mean for testers - their role, their skills, and their future?  During this presentation, we will discuss DevOps from a holistic organizational perspective, how DevOps capabilities in various areas are interrelated, and how it can impact your company's bottom line.  The goal would be for everyone to walk away with a common understanding of DevOps, how it makes your business more efficient and competitive, and how you can get involved in helping to grow DevOps - and future-proof your own career.",
+            "time": "4:15 - 5:15",
+            "room": "East Ballroom",
+            "picture": ""
+        },
+        {
+            "speaker": "Sivakumar Anna",
+            "bio": "As a Senior Director of Enterprise QA at Infostretch, Sivakumar Anna has more than 20 years of experience developing and managing QA strategies for Fortune 500 companies. In nine years with Infostretch, Mr. Anna has been instrumental in leading strategic enterprise engagements, which have resulted in significant value for clients such as Kaiser Permanente, The Body Shop, and Minted.com. Before joining Infostretch, Anna excelled as a technical project manager for both eBay and Cognizant, and also served as a QA/automation strategy consultant for Wells Fargo.",
+            "title": "Hyper-connected apps: don’t let peripherals play havoc with mobile app testing",
+            "abstract": "Remember how apps used to be? They connected to the internet and incorporated one device at most. Sure, testers had to factor in performance under different usage conditions, but we had great testing toolsets in place to deal with that. Fast forward to the present. These days sensors enable much more diverse functionality from our connected devices or smartphones and that means mobile app testing is no longer just about testing the app. Smartphones now include many sensors that interface with the ecosystem around them. These software and hardware components can all too easily play havoc with the apps themselves. Customers expect to be able to sync data to smart watches, scan visual inputs using the camera function, perform biometric authentication, use geo-location and have their language commands processed and understood. And, of course, they expect it to work smoothly and the user experience to be intuitive. Organizations therefore require new strategies for test automation for this hyper-connected era. Nowadays mobile test automation is not complete unless it also incorporates how the app interacts with these sensors, peripherals and hardware. In this session, we will demonstrate the importance of making hardware and sensor testing an integral part of mobile app testing as well as share strategies for how to successfully do so. In this session, attendees will gain the following takeaways: -Overview of the complexity of peripherals testing -Demonstration of sensor testing scenarios including location, camera, TouchID and Bluetooth -Best practices, challenges and how to overcome them -Case study: Device peripheral automation for one the leading medical device & solution provider",
+            "time": "12:45 - 1:45",
+            "room": "Student Alumni Room",
+            "picture": ""
+        },
+        {
+            "speaker": "Puneet Arya",
+            "speaker2": "Ajay Pedhagandham",
+            "bio": "Puneet is co-founder of Everest Technologies, Inc., and an IT Executive with 20+ years of global experience. He has been successfully delivering Development and QA solutions for large and medium Retail IT enterprises using a global delivery model. He has worked extensively with all aspects of large Retail IT organizations, including eCommerce, point-of-sale, warehouse management, order management and merchandising systems. His recent focus has been on delivering Omni-Channel, Self-Service Kiosks and Direct-to-Consumer initiatives, as well as Loyalty programs and Labor optimization. He has played a key role in our clients’ DevOps transformation initiatives focused on QA strategy roadmaps, automation and speed to market.",
+            "bio2": "As Quality Engineering practice manager at Abercrombie & Fitch, Ajay is currently managing a large cross-functional QE team that supports all IT projects and MOB teams across various portfolios. He has nearly 15 years of IT experience ranging from Software Testing, Test Automation, ATDD, Performance Testing to Team Management. Ajay started his career in Performance Testing and wore different Quality related hats throughout his career. He is a digital transformation evangelist, and loves to push the boundaries of what quality means for an organization.",
+            "title": "QA Automation Strategy That Works!",
+            "abstract": "Many eCommerce and Retail IT QA organizations are struggling to support CI/CD and Agile delivery teams due to lack of QA automation. With so much emphasis on Agile and CI/CD, QA organizations are fast becoming a roadblock rather than an enabler. According to WQR 2018- 19, “levels of basic automation are still quite low (between 14-18%)”. We want to help turn around the perception of your QA teams to be seen as partners and enablers. In this session you will learn about: -Building a QA automation roadmap – functional, regression, API testing, performance testing -Building a scalable solution to automate QA efforts for large-scale web applications -Developing an automation footprint that plugs into CI/CD pipeline -Modernizing testing to adapt to the changing digital eCommerce environment and decreasing time-to-market​.",
+            "time": "3:05 - 4:05",
+            "room": "Cartoon Room",
+            "picture": ""
+        },
+        {
+            "speaker": "Brian Bayer",
+            "bio": "A \"recovering developer\" and experienced staff software test engineer with strong DevOps skills and an Agile methodology background. Nearly thirty years of industry experience as a developer, quality assurance analyst, Agile coach and scrum master, project manager, and technical writer.",
+            "title": "Test Driven Development. It sounds great but how do we do it?",
+            "abstract": "While we often hear about the benefits of Test Driven Development (TDD) and Acceptance Test Driven Development (ATDD) and why we should follow these practices, we do not hear about HOW to actually do it. In this interactive live-coding presentation we will demonstrate the mechanics of TDD using the Fizz Buzz code kata. Fizz Buzz is a children’s game where one counts up to a given number but replaces any number divisible by three with the word \"Fizz\", and any number divisible by five with the word \"Buzz\". We will start with the acceptance criteria and implement the solution using Test Driven Development. Along the way we will use and discuss general testing concepts such as equivalence classes, boundary-value analysis, test data design, and tests as documentation. We will demonstrate how TDD drives us to solution faster by exposing and pinpointing bugs in our implementation and tests dispelling the common myth that TDD slows down development. This live-coding exercise demonstrates Ruby unit testing using RSpec but applies to any language and its testing framework.",
+            "time": "10:30 - 11:30",
+            "room": "Great Hall 1 & 2",
+            "picture": ""
+        },
+        {
+            "speaker": "Mike Buening",
+            "bio": "Mike Buening is a Director in the Digital Assurance and Testing Practice of Sogeti's East Ohio Region. His formal education culminated with a doctorate in biochemistry but his career has been all IT since, serving in a variety of roles from information analyst to business analyst to quality assurance manager to department head responsible for maintenance, operations, and testing a portfolio of globally accessible information systems. As a consultant, Mike has focused on testing discipline uplift in the utilities sector and is passionate about leveraging testing as a strategic discipline in the modern information technology organization.",
+            "title": "Agile Testing Transformation is as Easy as 1, 2, 3",
+            "abstract": "Many organizations still struggle to understand how testing fits into the new world when they undergo an agile transformation. There's conflicting advice and coaching from every direction. This session describes a three phased approach to understanding and defining a testing maturity journey that will enable the organization to achieve the desired level of agility. From a foundation in fundamental testing basics, to introducing basic automation, then evolving into smart quality assurance approaches, you can plan a maturity roadmap for your organization to follow.",
+            "time": "9:15 - 10:15",
+            "room": "Great Hall 3",
+            "picture": ""
+        },
+        {
+            "speaker": "Brendan Connolly",
+            "bio": "Brendan Connolly is a Software Tester, Developer and blogger based out of Santa Barbara, California with nearly a decade of testing experience in a variety of different roles. He writes tests at all levels from unit and integration tests to API and UI tests and is responsible for creating and executing testing strategies while using his coding powers for developing tooling to help make testers lives easier.",
+            "title": "Panoramic Quality",
+            "abstract": "DevOps drastically changes the landscape of testing. Collaboration between operations and development teams enables a steady stream of small changes to be deployed to production. This pace of change puts a real strain on traditional testing activities. There used to be a sense of safety in dedicating hours or even days to testing after code is complete and before release, yet this is a luxury and liability in DevOps. The more time that elapses from when code is written to when it is deployed, the more risk is actually introduced. The geography of production code is in a constant state of change, so the longer testing takes the more the landscape around and even beneath you changes, and the more risk it accrues. This rapid rate of change requires testers to broaden their vision, and shift the focus and geography of their actions. In this talk testers will see that while they may have lost full ownership the testing tasks they are accustomed to performing, DevOps has expanded the opportunity for testers to become arbiters of quality. To help testers look beyond deriving quality from executing tests and shift towards becoming quality owners, I'll share 3 core responsibilities of testers in DevOps: to know, protect, and verify. I'll then provide four key areas of focus: code, customer, architecture, and environment discussing the how testers can establish quality ownership through these responsibilities. This talk will help testers to find their path to enabling continuous quality, sharing test ownership across the team while instilling value from pull request to production. Take Aways: -A working definition of Quality Ownership and its relationship to Product Ownership. -How testing needs to change depending on where code is running. -Why test against the developers local changes? -How testers can start taking ownership of code without knowing how to write it",
+            "time": "3:05 - 4:05",
+            "room": "Great Hall 3",
+            "picture": ""
+        },
+        {
+            "speaker": "Erik Davis",
+            "bio": "Test Lead at OnShift. I test. I lead. I help develop testers. I speak at conferences to share what I've learned, sometimes the hard way. ",
+            "title": "A Good and a Bad Way to Lead a Testing Effort",
+            "abstract": "In this talk I will share my experiences working in two very different environments, attempting to lead the testing effort of two very different organizations, with two very different results. In contrasting these two very different experiences, I will share where each effort started, where they ended up, what steps were taken to improve things, and the roadblocks I encountered. Attendees can expect to take away: -Details of two very different ways managing a testing program can turn out -Some tactics they can consider if they are now, or hope to take on the program manager role -Advice on how to handle tough situations (from my hindsight)",
+            "time": "10:30 - 11:30",
+            "room": "Interfaith Room",
+            "picture": ""
+        },
+        {
+            "speaker": "Richard Douglass",
+            "bio": "Richard is currently a User Experience Director at The Ohio State University. For the past 15 years he has helped create engaging experiences for companies such as IBM, Razorfish, and PwC. He has worked on a range of projects from: Intranet, Extranet, .com, Mobile, Enterprise and Development software. In addition, Richard is experienced with a range of methodologies including: co-creation and strategy workshops, usability testing, focus groups, interaction design, and persona development. In addition, he has led workshops at conferences in China, New Zealand, and the United States.",
+            "title": "Design Thinking — How Should QA Professionals Engage this New UX Methodology?",
+            "abstract": "Design Thinking is a human-centered approach to problem solving is rapidly gaining traction in more and more companies. The end goal is innovation that draws from a number of user experience disciplines in order to explore the needs of end users, the possibilities of technology, and the best way to achieve business outcomes. In this session, we will explore this new methodology and we’ll consider the best ways for QA professionals to participate in these project efforts. We’ll also look how to incorporate the outputs from Design Thinking into their work, what to expect, etc.",
+            "time": "10:30 - 11:30",
+            "room": "Student-Alumni Room",
+            "picture": ""
+        },
+        {
+            "speaker": "Matthew Eakin",
+            "speaker2": "Brian Offenbacher",
+            "bio": "I am a Testing Strategist for Centric Consulting. With over 20 years of technical, leadership and planning experience, I bring a unique, thorough and comprehensive perspective to every project. My extensive expertise around all aspects of the SDLC combined with development skills has helped me to be an effective Agile practitioner and coach. I talk extensively on Gherkin Scripting and am in high-demand as a BDD (Behavior-Driven Development)/ATDD (Acceptance Test Driven Development) coach.",
+            "bio2": "No bio information",
+            "title": "Successful offshoring: a look at some best practices",
+            "abstract": "Offshoring development and testing work has become part of many companies standard operating practices. For good reasons: lower costs, increased headcount, lower costs and potential 24-hour development cycles. But implementing an offshore model is difficult and can put many of these benefits at risk. Are your costs really lower when your Managers are spending all of their time reviewing the code or test cases? Can 1 offshore tester really equal the workload of 1 FTE? Is there truly a 24-hour development cycle? And do you even want one if it means your development team is in two locations? In this presentation we will address these and many more questions through a series of “best practices” developed over years of working with offshore teams.",
+            "time": "12:45 - 1:45",
+            "room": "Interfaith Room",
+            "picture": ""
+        },
+        {
+            "speaker": "Joshua Eastman",
+            "bio": "Josh is an accomplished software testing and development professional with over 8 years of quality assurance and testing experience primarily within automation testing and Acceptance Test Driven Development. (ATDD) He has held senior management and staff consulting positions at a great number of industry leading companies including Nationwide Insurance, Huntington National Bank, Capital One, Dell, Stanley Black & Decker, Cisco, iHeart Media, Starbucks, and a variety of other companies nationwide. His background includes designing, implementing, and teaching automation solutions for a wide range of clients in systems and software, as well as consulting on process and methodology for improvement of quality and efficiency in the Software Development Lifecycle. (SDLC).",
+            "title": "Continuous Quality - DevOps with Quality",
+            "abstract": "DevOps requires “Continuous Quality” – How do we evolve from automated to continuous testing for Agile and DevOps? The most fundamental shift required in moving from automated to continuous is aligning “quality” with business risk. Continuous Quality can provide a quantitative assessment of risk and produce actionable tasks that will help mitigate these risks before progressing to the next stage of the SDLC. We will discuss vital attributes of a Continuous Quality Platform that will allow organizations to rapidly and precisely validate that their applications satisfy business expectations around functionality (unit, service, acceptance, and regression), reliability, performance, accessibility and security: -Openness and Ease of Integration -Test Management – Driven by Policy with Requirements Traceability -Test Data Management -Test Environment Management and Simulation (Service Virtualization) -Execution -Process Intelligence – Monitoring and Analysis -Continuous Feedback with Prioritized Findings",
+            "time": "3:05 - 4:05",
+            "room": "West Ballroom",
+            "picture": ""
+        },
+        {
+            "speaker": "Tim Grant",
+            "bio": "Having worked in the high tech industry for over 20 years I have worked on building products ranging from small business servers to digital cinema projectors to my current project, Focals, custom-built smart glasses.  Leadership has been a key component of the roles I have held across various small and large enterprises.  In my current role, as the Software QA community lead at North I am responsible for building a community of software QA professionals that is an industry center of excellence.",
+            "title": "Try: Fail, Try: Succeed, A story about how we built North's QA organization from the ground up",
+            "abstract": "Joining North (then Thalmic Labs) in May 2016, it was 75 people with a vision to revolutionize our relationship with technology. I came on board with a mandate to build a QA organization from the ground up, develop internal processes to test and release software in a young and agile company that would see rapid growth to fulfill its vision. Oh yeah, did I mention that I had never worked in software QA before I started this job? Join me as I walk you through our progression from hiring team member #1 to building a team of 20 (and growing) that is now responsible for testing everything from computer wearable devices to cloud services to our order flow system in a company now 400+. Along the way I'll highlight where we made mistakes and the lessons we learned.",
+            "time": "9:15 - 10:15",
+            "room": "Interfaith Room",
+            "picture": ""
+        },
+        {
+            "speaker": "Thomas Haver",
+            "bio": "Thomas Haver is presently serving as a Senior Application Architect at Huntington National Bank. He is responsible for the conversion from manual testing to Ruby/Cucumber automation for the entire enterprise. Originally accountable for the development and maintenance of automation frameworks for Digital Channels, he now leads the automation effort for 73 applications across Huntington that encompass testing, metrics & reporting, data, and environment. Thomas is a scientist turned baker turned technology professional. He started as a research scientist in fluorescence microscopy & spectroscopy, and has worked at three different R1 research institutes. He has worked as a tester, a developer, a requirements analyst, and finally an application architect. On the weekends, he makes baked goods for a local bakery and hosts gaming events for his non-profit. His passion for reducing the cost of quality through automation and continuous improvement leads him to explore new areas of technology and business management.",
+            "title": "Develop Yourself and Uplift Others",
+            "abstract": "In the constant flux of software development, everyone involved in creating new technologies and features must adapt to changes or be left behind. One obstacle facing professional development is lack of support and/or guidance from management. According to a recent survey by Robert Half Finance & Accounting, only 26% of employers allow their employees to attend continuing professional education courses during business hours. However, all is not lost: change can come from within rather than management. Employees can take the reins of continuous improvement and generate positive change for themselves & their organization. In this session, the audience will learn how to implement a robust continuous improvement curriculum that can be integrated into an organization's culture -- one training class, one conference, one professional group at a time.",
+            "time": "10:30 - 11:30",
+            "room": "Cartoon Room",
+            "picture": ""
+        },
+        {
+            "speaker": "Anna Heiermann",
+            "bio": "Anna has 10 years of testing experience where she has led QA teams on projects within Higher Education, Nutrition, Energy and Aviation Industries. Outside of the testing and consulting world, you can find Anna either with her family or her favorite gym crew training for her next power lifting personal best. Anna enjoys living the country life on a couple acres with her husband and her full of mischief Boston Terrier, Chloe.",
+            "title": "You Can't Always Get What You Want, but If You Try Sometimes...",
+            "abstract": "Do you ever feel like you are asked to test something and the pieces you need aren't there? You can't always get what you want, but if you try sometimes you get what you need, or maybe some of what you need. Come listen, and get some tips as I talk about how I've been able to make a successful case in order to get the right test data, resources, environments and instances where I've had to be creative with testing when I didn't get what I asked for.",
+            "time": "1:55 - 2:55",
+            "room": "Cartoon Room",
+            "picture": ""
+        },
+        {
+            "speaker": "Anne Hungate",
+            "bio": "Anne Hungate is an IT executive with more than twenty years' experience.  Experimenting with both engineering practices and organizational design, Anne determined that people and trust are the keys to better software, while facts and data link IT results to business value.  Anne is the president of Daring Systems, a consultancy practice that helps clients improve their productivity and profitability by understanding their software delivery supply chain.  Anne has presented at local and national conferences, sharing the lessons learned over two decades of transformation and delivery.  Anne holds her DevOps Foundation, DevOpts Test Engineer, and professional coaching certifications and has earned both CSQA and PMP designations.",
+            "title": "A Successful DevOps Initiative Starts with Knowing Your Numbers!",
+            "abstract": "IT organizations that don’t know their risk factors and exposure are likely to make investments in DevOps that don’t matter. After working with several teams that lost their DevOps funding after making automation investments in areas that were not business constraints, Anne Hungate's “Know Your Numbers” model emerged. Join Anne to learn how to prioritize your DevOps improvements and demonstrate the impact and value you are delivering. After all, DevOps gets traction and funding when teams can show the business impact of doing it, so if you want your DevOps initiative to take off, be prepared to provide some metrics! You'll discover the five key questions you need to be able to answer to show that your DevOps matters, and leave with seven actions you can start taking as soon as you get back to your desk in order to improve the results of your DevOps efforts.",
+            "time": "10:30 - 11:30",
+            "room": "West Ballroom",
+            "picture": ""
+        },
+        {
+            "speaker": "Eran Kinsbruner",
+            "bio": "Eran Kinsbruner is the lead software evangelist at Perfecto and the author of The Digital Quality Handbook and Continuous Testing for DevOps Professionals books, as well as a monthly columnist at InfoWorld.com. He is a software engineering professional with nearly twenty years of experience at companies such as Matrix, Sun Microsystems, General Electric, Texas Instruments and NeuStar. He holds various industry certifications from ISTQB, CMMI, and others. Eran is a recognized mobile testing influencer and thought leader, as well as an experienced speaker in the major software engineering conferences. He is also a patent-holding inventor for a test exclusion automated mechanism for mobile J2ME testing, public speaker, researcher, and blogger. He can be found all over social media, including on Facebook, Twitter (@ek121268), LinkedIn, and his professional mobile testing blog (http://continuoustesting.blog).",
+            "title": "Maturing Your Path Toward DevOps with Continuous Testing",
+            "abstract": "Interest in Continuous Testing has been growing for 5 years now—yet the more we talk about it, the more polarized the discussion becomes. Complicating the conversation is the fact that Agile and DevOps are both driving the need for Continuous Testing, but both require distinctly different things from a quality perspective. Join me for a lively discussion on what’s really required for Continuous Testing in the context of Agile and DevOps. Join Eran Kinsbruner, author of Continuous Testing for DevOps Professionals, as he explores: -How DevOps and Agile change the game for testing -Which elements of Continuous Testing are absolutely essential for Agile and DevOps -The top myths, misconceptions, and mistakes surrounding Continuous Testing -Strategies for measuring Continuous Testing progress and ROI",
+            "time": "9:15 - 10:15",
+            "room": "West Ballroom",
+            "picture": ""
+        },
+        {
+            "speaker": "Jack Maher",
+            "bio": "John F \"Jack\" Maher, MSIS, PMP, CAL is the co-author of the book \"Standing On Shoulders: A Leader's Guide to Digital Transformation\", and author of the upcoming book \"Deterministic Process Design®: The Secret Sauce\". Formerly the Director of Methodology at Nationwide, where he architected then led the development and deployment of a full stack methodology implementing Lean, Agile and DevOps practices across the full value stream from business solution request through deployment. More recently, his Deterministic Process Design® (DPD) has been recognized by Gartner and the US Patent & Trademark Office as unique. DPD is the first process design specifically intended for fully round-tripped value stream automation. In addition to writing, Jack also is an in-demand speaker, DevOps Institute certified trainer, and advises clients and consulting firms on DevOps and Digital Transformation.",
+            "title": "Testing Comes Into Its Own In DevOps",
+            "abstract": "While the Developers may have started the party and Operations gets its name in lights, it is Testing that is the main event in DevOps. Automated testing has been around for a while but has never really gotten its due until now. Largely misunderstood as a way of reducing testing costs, the future is brighter than ever as companies realize the need and benefit of 100% testing coverage. Automated testing is the key that unlocks our ability to deliver solutions faster, cheaper, safer, and better!",
+            "time": "12:45 - 1:45",
+            "room": "West Ballroom",
+            "picture": ""
+        },
+        {
+            "speaker": "Hadassah Mativesky",
+            "bio": "Hadassah Mativetsky started as a Software Quality Engineer at Universal Instruments in September 2015. Prior to working as an Engineer, Hadassah was a program and research coordinator at Binghamton University. Between her BA in Mathematics and her MS in Systems Science she worked many odd jobs, volunteered and traveled the world. Currently she the Toastmasters District 65 Division D Director and Program Chair of the Binghamton Section of the American Society for Quality.  She is an ISTQB Certified Agile Tester (CTFL-AT). She tweets about STEM at @Haddie.",
+            "title": "How to build more prosocial teams",
+            "abstract": "Social skills, interpersonal skills, leadership, and teamwork are all critical to software testing. How do we get group members to be more prosocial (as opposed to anti-social)? Nobel Prize winner Elinor Ostrom and SUNY Distinguished Prof. David Sloan Wilson came together to join the concepts of common pool resources and multi-level selection to start what is now called “Prosocial”. Since then many other academics and practitioners have come on board in its development, particularly psychologists working in Contextual Behavioral Science. This talk will overview the theoretical basis for prosocial and what it is. We will model some of the exercises and conclude with a discussion of prosocial and business practices with a particular focus on Agile.",
+            "time": "9:15 - 10:15",
+            "room": "Cartoon Room",
+            "picture": ""
+        },
+        {
+            "speaker": "Jeff McKenzie",
+            "bio": "Jeff McKenzie has worked in software development for nearly twenty years, in both freelance and full-time capacities, as a developer and team leader. He enjoys helping others solve problems through technology, whether it's the small business getting on the web for the first time, or a Fortune 500 company expanding its enterprise. Although he started his career using BASIC on an Atari 800, he took a big detour, getting Biology and English degrees before rediscovering programming, with a new thing called the World Wide Web. He is currently an Architect at Insight Digital Innovation (formerly Cardinal Solutions) in Columbus Ohio.",
+            "title": "Automating Your Automation: The Care and Feeding of Jenkins",
+            "abstract": "If you're like 70% of continuous integration and delivery users out there, you're using Jenkins, the powerful and popular automation server. But how do you know you're doing it right? Are you getting the most out of the strategies you've chosen? In this session you'll learn how best to manage your automation, how different job types and plugins can improve your architecture and decrease your maintenance effort. One fascinating feature of Jenkins is that no matter where you are in your automation maturity, it seems like there's always another level of depth you can follow -- if you're using the basic point-and-click of freestyle jobs, you can move to the scripted context of pipelines. Once you've explored pipelines, you can learn to leverage shared global libraries to promote code reuse across multiple pipelines. In this session, you'll learn basics about Jenkins, specific use cases for different job types, and how best to manage your automation as it grows from one job, to ten, to one hundred. Finally, you'll learn how to create your entire Jenkins job collection from scratch, at the push of a button.",
+            "time": "1:55 - 2:55",
+            "room": "Great Hall 1 & 2",
+            "picture": ""
+        },
+        {
+            "speaker": "Andy Melichar",
+            "bio": "ScrumMaster by day, poodle puff dad by night. Andy is an Agilist through-and-through and loves nothing more than to help people better understand the world of Agile/Scrum/DevOps.",
+            "title": "Agilist's Guide to Surviving Scrum as a Tester",
+            "abstract": "Being a tester in an Agile team can be overwhelming, confusing, and frustrating due to the speed at which development is happening and the relatively short timeline of a sprint. In this talk we'll discuss specific strategies you can use to maintain a high level of quality while adapting to the iterative nature of Agile and Scrum.",
+            "time": "10:30 - 11:30",
+            "room": "Great Hall 3",
+            "picture": ""
+        },
+        {
+            "speaker": "Paul Merrill",
+            "bio": "Paul Merrill is principal software engineer in test and founder of Beaufort Fairmont Automated Testing Services. A frequent writer on testing and test automation in top-notch testing publications and an international speaker at testing and software conferences, Paul works with clients every day to accelerate testing, mitigate risks, and increase the value of testing processes with test automation. An entrepreneur, tester, and software engineer, Paul has a unique perspective on launching and maintaining quality products. Check out more test automation learnings through the webinars on his company website.",
+            "title": "Machine Learning, will it take over testing?",
+            "abstract": "Machine learning (ML) is gaining widespread adoption and interest on software development and QA projects. Some companies are already generating and executing test cases using ML algorithms. So it’s time to start thinking: Might testing be on that list? Join Paul Merrill to Learn: -How to develop guidelines for testing software in the age of machine learning and help your team be a part of the future -The 3 types of ML your team need to know and how they are changing the way work is done -Where ML is being used in dev and testing and the scope of its impact -How ML-driven tools are already replacing some of the major testing and dev activities.",
+            "time": "1:55 - 2:55",
+            "room": "Interfaith Room",
+            "picture": ""
+        },
+        {
+            "speaker": "Sathish Natarajan",
+            "speaker2": "Shiva Agolla",
+            "bio": "Sathish has over 19 years of dedicated testing experience leading hyper-growth initiatives, building practices and high-performance teams, and delivering across multiple industry sectors. He is part of the Testing Leadership team—leading analyst relations, building transformational IPs, and contributing to authoring the World Quality Report. Sathish was a founding member of Testing practice at a large consulting services firm and led the global Retail & Hi-Tech Testing verticals—a $240M testing portfolio. Sathish holds a MBA and a number of certifications including CSTE, CSQA, PMP, MCP, Six Sigma etc. Based out of the San Francisco bay area.",
+            "bio2": "Shiva has over 15 years IT indudstry experience serving primarily Financial Services, Retail sector clients. As a testing evangelist, he is passionate about lean testing, QA, and continuous improvements via A3 thinking. He developed several test metrics management programs and delivered a variety of comprehensive, optimized test solutions. He is an active member of the Global Testing Expert Connect Program and has publications and presentations with QAI on topics such as performance testing, TCoEs, system migrations, and transforming test organizations. Shiva holds a Management certification from a prestiguous management institute and and a bachelor’s in computer science. Shiva lives in Columbus, Ohio.",
+            "title": "Digital transformation continues to drive IT strategy, How is QA and testing positioned?",
+            "abstract": "Organizations under pressure to deploy new digital products and services are finding it tough to strike a balance between quality and speed of development, particularly when it comes to deploying IoT technology. This year’s share of the IT budget devoted to quality assurance (QA) and Testing has dropped to 31% after a significant and worrying increase from 18% to 35% during the preceding four years. Despite this year’s reduction, there is an overall prediction that spending will increase to 40% in 2019. -Digital Transformation -IoT and Security -Agile and DevOps -Industrialization and TCoE -Test Environments and Test Data Management -QA&Test Budgets And the recommendations for QA to act on.",
+            "time": "1:55 - 2:55",
+            "room": "Great Hall 3",
+            "picture": ""
+        },
+        {
+            "speaker": "Sarala Pandey",
+            "speaker2": "Ashtha Singh",
+            "bio": "Sarala Pandey is presently serving as the Quality Assurance Manager for Huntington National Bank. She is responsible for managing resources, and creating and maintaining QA standards and process for the entire Digital Channel team. Sarala is accountable for all QA personnel and project delivery for Retail Online (ROL), Business Online (BOL), Online Account Opening (OAO), Mobile Applications, and Huntington.com. In addition, Sarala has enhanced organizational efficiency & efficacy by piloting test automation, exploratory testing, and the continuing education program in which she provided technical solutions and trainings to many teams at Huntington. Sarala strives to make the work place a learning place, and has implemented continuing improvement plans and goals for her team. Sarala began her career in QA with an internship at Online Computer Library Center (OCLC). Over the course of 20 years, she has served as a QA Analyst, QA Lead, Off-shore Liaison, and finally as a QA Manager.",
+            "bio2": "No bio information",
+            "title": "How do you change the world? By developing future women leaders",
+            "abstract": "Change begins at home. Many first generation disadvantaged immigrants to this country do not attend college, which means their children do not have adequate guidance on pursing higher-level education. The community can come together to provide help to these children with code camps. This past summer, a Young Women in Tech code camp was held in Columbus for members of the Bhutanese-Nepali Refugee Community. More than a dozen experts in technology volunteered to teach girls aged 13-17 about computer programming, accessibility, user-centered design processes, cyber security, Photoshop, software development, testing, and desktop management. The volunteers taught the girls about the extensive career options within technology, with each volunteer focusing on their respective area of expertise. The training was supplemented by college admissions officers providing education guidance and a course on resume building. The entire camp was sponsored by a local community college with financial support for meals, equipment, and clothing provided by local businesses. In this session, the audience will learn how to uplift the next generation of leaders through supplemental training opportunities outside of school. The audience will be shown how to organize a code camp locally, from securing facilities for training, to financial support, to soliciting volunteer teachers in technology.",
+            "time": "12:45 - 1:45",
+            "room": "Cartoon Room",
+            "picture": ""
+        },
+        {
+            "speaker": "Hayden Payne",
+            "bio": "Hayden Payne is a software quality assurance tester with Centric Consulting. She has a Bachelor of Science in Computer Information Systems from DeVry University. In her time at Centric, Hayden has built test automation skills with Ruby, Cucumber, WATIR, and Page Object. She is always looking for fun, creative ways to apply these skills outside of daily work.",
+            "title": "Cutting in Line for Taylor Swift Tix",
+            "abstract": "When Taylor Swift announced her 2018 stadium tour, there was no question that I would be purchasing tickets. This time around, Taylor wanted to ensure that only verified fans would be able to purchase these tickets. This meant that fans wanting tickets were either dedicating 80% of their time or bank accounts to Taylor Nation, LLC. Even as a very dedicated Swiftie, I did not love either of those options. I knew that there had to be a better way. In this presentation, I will show you how I utilized automation to make my way to the front of Taylor Swift’s ticket line. Come and see how automation can also be applied to simplify even non-Swiftie pursuits, including your everyday testing tasks.",
+            "time": "3:05 - 4:05",
+            "room": "Student-Alumni Room",
+            "picture": ""
+        },
+        {
+            "speaker": "Seth Petry-Johnson",
+            "bio": "Seth spent 21 years as a professional developer/architect before finally joining the dark side of management. He now spends his days as a pointy-haired boss leading a small-but-mighty product development team in the search for elegant solutions to complex problems. He is passionate about clean architecture, testable systems, and bringing order to chaos. Seth lives in Columbus, OH and is an active participant in the Midwest developer community. He'll write TPS reports when he has to, but still enjoys writing, reviewing, and talking about code.",
+            "title": "UI Tests Are Fun to Write (If You Write Them Right)",
+            "abstract": "Automated browser tests can be a nightmare to write and maintain. Unlike unit tests they’re tough to set up, slow to run, make permanent changes to data, and they’re incredibly brittle. Even a tiny CSS change can result in cascading failures! You can’t ignore these issues, but you CAN design around them by adopting a few key patterns and techniques. Data creation helpers let you construct intricate data graphs in one line of code. Page Objects abstract away tedious browser automation code and make tests resilient to changes in HTML structure. You'll also see some anti-patterns that are definitely NOT fun to write. Developers will leave this session prepared to inject some newfound joy into their UI testing efforts. (Some examples use WebDriver, although the session is largely test tool agnostic).",
+            "time": "9:15 - 10:15",
+            "room": "Student-Alumni Room",
+            "picture": ""
+        },
+        {
+            "speaker": "Patrick Poulin",
+            "bio": "Patrick started his tech career on mobile, and soon was managing the retail vertical for a company building the first mobile websites for over 75 major brands such as Tesco, Target, Macys, and MAC Cosmetics. After a (thankfully) short stint in adtech, he became the API Evangelist for Getty Images. This is where he first recognized the lack of good API tools. That experience is what led to the creation of API Fortress with his cofounder.",
+            "title": "Going from Manual to Automated API Testing - How To and Best Practices",
+            "abstract": "API are a critical component of most major web platforms and apps, and yet the testing is often not taken as seriously. Thanks to new powerful tools and platforms, as well as CI/CD, QAs can now truly implement testing into their automated workflow with minimal impact to their existing workflow. This demo-focused session will dive into the benefits of automated testing, some examples of how to implement that automation, and finally a review of best practices for more advanced functional and end-to-end tests. This session is for everyone from beginner to advanced testers.",
+            "time": "9:15 - 10:15",
+            "room": "Great Hall 1 & 2",
+            "picture": ""
+        },
+        {
+            "speaker": "Akshita Puram",
+            "bio": "Akshita Deora Puram is a subject matter expert and evangelist in digital transformation and software testing. She manages the software testing portfolio at SmartBear, which includes award winning tools such as TestComplete, TestLeft, CrossBrowserTesting, and Hiptest. She loves to talk to software quality teams on adopting practices for an agile world, including AI-driven UI test automation, shifting left, and behavior-driven development. More recently, she walked hundreds of QA engineers and managers through how to adopt shifting left and measure their ROI for automated testing. Akshita has over 10 years in the software technology industry working as a system architect, tester, and IT consultant. She has an MBA from MIT Sloan and has also been published by SDTimes, CDOTrends, DZone, TheNewStack, Cucumber, Capgemini, MIT Initiative on the Digital Economy, MIT Sloan, and SmartBear.",
+            "title": "Mastering the Art of Mobile Testing",
+            "abstract": "According to the 2017 U.S. Mobile App Report by comScore, mobile web apps have 2.2 times the number of monthly visitors than native mobile apps. This number is expected to grow as consumers are more resistant to downloading apps, increasing the demand to also develop and test progressive web applications. Finding an ideal test automation solution to conduct native mobile and mobile web applications, as well as back-end and front-end mobile testing is a top challenge many software testing teams face today. Join SmartBear's Akshita Puram to learn what's important in a successful mobile application testing strategy. She provides a walk-through of an automation framework as well as a use case for back and front-end mobile testing. Attendees learn: -Key components of every mobile testing strategy -Why automation frameworks are essential -Best practices for end-to-end mobile testing ​",
+            "time": "1:55 - 2:55",
+            "room": "Student-Alumni Room",
+            "picture": ""
+        },
+        {
+            "speaker": "Dave Sadlon",
+            "bio": "Dave Sadlon, Director of Testing Services at HMB, has been working for 10 years in the technology industry while wearing multiple hats (not just for his bald head).  Lately he can be found building out test automation suites and testing strategies for clients. His true passion, though, is helping others grow and mature in their careers. When not at work, Dave is spending time with his wife Leah typically hiking or diving into the fine art of home improvement fixes (typically things he broke).",
+            "title": "Automated Visual Regression Testing...because CSS is Awesome",
+            "abstract": "We're going to look at.. -What is Automated Visual Regression Testing. -When to use Automated Visual Regression Testing -Leveraging the Backstop.js Library -Further Capabilities of Automated Visual Regression Testing As the industry becomes more fragmented with browsers, devices, resolutions it becomes a greater risk for teams to ensure that customers experience the same customer experience across those devices. That risk hits home with testing teams as one test could be tested across multiple devices. Sure we know that automated functionality can find HTML elements but can it tell us that the site actually looks right? Come check out how we can implement safe guards against the UI of sites to ensure what looks great on Chrome also looks as good on Firefox.",
+            "time": "3:05 - 4:05",
+            "room": "Great Hall 1 & 2",
+            "picture": ""
+        },
+        {
+            "speaker": "Donavan Stanley",
+            "bio": "Donavan is the automation architect for Centric Consulting.  In this role he spends quite a bit of time building automation frameworks and improving existing ones.",
+            "title": "Rethinking the page object pattern",
+            "abstract": "Most in the Ruby automation world are very familiar with Page-Object and Watir. Page-Object served a very useful purpose, but as Watir-classic and Watir-webdriver issues have resolved into just Watir, it's time to consider refactoring Page-Object into something faster, easier, and more extensible. I have written a new DSL that makes declaring elements easier, and can actually be extended using the same patterns for the base set of elements. Furthermore, a new Page-Object style DSL will be demonstrated to show how you can replace Page-Object in a way that gives you far more control and flexibility, with minimal re-work to replace Page-Object.",
+            "time": "12:45 - 1:45",
+            "room": "Great Hall 1 & 2",
+            "picture": ""
+        },
+        {
+            "speaker": "Raj Subramanian",
+            "bio": "Raj Subramanian is a former developer who moved to testing to focus on his passion. Raj currently works as a Developer Evangelist for Testim.io, that provides stable self-healing AI based test automation to enterprises such as Netapp, Swisscom,Wix and Autodesk. He also provides mobile training and consulting for different clients. He actively contributes to the testing community by speaking at conferences, writing articles, blogging, making videos on his youtube channel and being directly involved in various testing-related activities. He currently resides in Chicago and can be reached at raj@testim.io and on twitter at @epsilon11. He actively blogs on www.testim.io and his website www.rajsubra.com . His videos on testing, leadership and productivity can be found here – http://www.rajsubra.com/my-youtube-channel/",
+            "title": "AI Based Testing - The future of test automation",
+            "abstract": "Artificial Intelligence and machine learning are advancing at a rapid pace. Companies like Apple, Tesla, Google, Amazon, Facebook and others have started investing more into AI to solve different technological problems in the areas of healthcare, autonomous cars, search engines, predictive modeling and much more. Applying AI is real. It’s coming fast. It’s going to affect every business, no matter how big or small. This being the case how are we as Testers going to adapt to this change and embrace AI? Also, in the era of where we want to automate everything, how is AI going to influence the way we do test design and automation? Come join this session, where I cover the basics of AI, discuss the key ways software testing can benefit from AI and the challenges involved in implementing AI based solutions. Attending this session will help anyone to get started with AI based testing.",
+            "time": "3:05 - 4:05",
+            "room": "Interfaith Room",
+            "picture": ""
+        },
+        {
+            "speaker": "Melissa Tondi",
+            "bio": "Melissa Tondi has spent most of her career working within software testing teams. She is the founder of Denver Mobile and Quality (DMAQ), past president and board member of Software Quality Association of Denver (SQuAD), and Consultant Manager at Rainforest QA, where she assists companies to continuously improve the pursuit of quality software—from design to delivery and everything in between. In her software test and quality engineering careers, Melissa has focused on building and organizing teams around three major tenets—efficiency, innovation, and culture – and uses the Greatest Common Denominator (GCD) approach for determining ways in which team members can assess, implement and report on day to day activities so the gap between need and value is as small as possible.",
+            "title": "The QA/QE Role: Supporting DevOps the Smart Way",
+            "abstract": "Focusing on more valuable automation, shifting traditional “right” tasks left, and tailoring refinement to account for more efficient activities are some of the topics we’ll discuss. You’ll take away practical outcomes that will be relevant no matter where you are in your DevOps implementation. The role of QA/QE tends to be ambiguous within Agile teams who are pursuing the DevOps approach within their SDLC. There are many misconceptions around QE's role, automation, and which agile ceremonies make sense in DevOps. Melissa will share her insight on how she consults with companies - from startups to Fortune 100 companies - on the innovative ways QA/QE can add value to DevOps by focusing on efficient tasks. Key takeaways include: -Defining the QE Role -Re-tuning Automation -Shifting traditional QA/QE “right” tasks left -Re-defining Refining Shippable By deep-diving in to each topic, you'll get innovative ways to leverage Agile and QA/QE activities to ensure a consistent, efficient, and productive playbook for DevOps.",
+            "time": "1:55 - 2:55",
+            "room": "West Ballroom",
+            "picture": ""
+        },
+        {
+            "speaker": "Jeff Van Fleet",
+            "bio": "After spending over 20 years managing, developing, and deploying complex software/hardware systems for both commercial and Department of Defense (DoD) applications, Jeff founded Lighthouse in 2000 with the aim of establishing a company whose customer service was only eclipsed by the quality of its work. Armed with an encyclopedic knowledge of motivational leadership tactics and a wealth of expertise in software quality assurance (QA) processes and technical leadership, he’s both a hands-on company leader and the primary architect of Lighthouse’s celebrated workplace culture.",
+            "title": "Increase your value - Move from testing to quality",
+            "abstract": "Proven principles to maximize business value for your company...and your career. High-quality software results in lower cost and shorter schedule. You are already Agile and moving from manual to automated testing. But, how do you partner with the developers to help them shift-left, find defects earlier, and increase the speed and quality of delivery? Join us for an engaging presentation: -Understand core software development principles including defect potential and defect removal efficiency -Discover what QC activities will have the biggest benefit for your team -Learn what KPIs matter – How to trade-off Quality, Cost, and Time -Lead your team and company to world-class quality.",
+            "time": "12:45 - 1:45",
+            "room": "Great Hall 3",
+            "picture": ""
+        }
+    ]
+}
