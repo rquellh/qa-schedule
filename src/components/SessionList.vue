@@ -11,7 +11,7 @@
           >
             <v-list-tile
               :class="timeFiltered"
-              :href="`./${session.node.year}/${removeSpaces(session.node.speaker)}`"
+              :href="`./${removeSpaces(session.node.speaker)}`"
             >
               <v-list-tile-content>
                 <v-list-tile-title>{{session.node.title}}</v-list-tile-title>

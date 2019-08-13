@@ -5,7 +5,7 @@
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
-const events = require('./static/data.json')
+const data = require('./static/data.json')
 const nodeExternals = require('webpack-node-externals')
 
 module.exports = function (api) {
@@ -21,35 +21,29 @@ module.exports = function (api) {
   })
 
   //Load the conference data
-  for (const event of events) {
+  for (const session of data.sessions) {
     api.loadSource(store => {
       const contentType = store.addContentType({
         typeName: 'Session'
       })
+      var speaker = session.speaker.replace(/\s/g, '')
+      var path = `/${speaker}`
 
-      for (const session of event.sessions) {
-        var speaker = session.speaker.replace(/\s/g, '')
-        var path = `/${event.year}/${speaker}`
-
-        contentType.addNode({
-          id: undefined,
+      contentType.addNode({
+        id: undefined,
+        title: session.title,
+        path,
+        fields: {
+          speaker: session.speaker,
+          speaker2: session.speaker2,
+          bio: session.bio,
+          bio2: session.bio2,
           title: session.title,
-          path,
-          fields: {
-            speaker: session.speaker,
-            speaker2: session.speaker2,
-            bio: session.bio,
-            bio2: session.bio2,
-            title: session.title,
-            abstract: session.abstract,
-            year: event.year,
-            time: session.time,
-            room: session.room,
-          }
-        })
-      }
+          abstract: session.abstract,
+          time: session.time,
+          room: session.room,
+        }
+      })
     })
   }
-
-
 }

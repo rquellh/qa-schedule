@@ -41,7 +41,7 @@ export default {
 <page-query>
 query currentSessions {
   session1: allSession(
-    filter: { year: { dteq: "2019" }, time: { eq: "8:00 - 9:00" } }
+    filter: { time: { eq: "8:00 - 9:00" } }
     sortBy: "room"
     order: ASC
   ) {
@@ -53,12 +53,11 @@ query currentSessions {
         abstract
         time
         room
-        year
       }
     }
   },
   session2: allSession(
-    filter: { year: { dteq: "2019" }, time: { eq: "9:15 - 10:15" } }
+    filter: { time: { eq: "9:15 - 10:15" } }
     sortBy: "room"
     order: ASC
   ) {
@@ -70,12 +69,11 @@ query currentSessions {
         abstract
         time
         room
-        year
       }
     }
   },
   session3: allSession(
-    filter: { year: { dteq: "2019" }, time: { eq: "10:30 - 11:30" } }
+    filter: { time: { eq: "10:30 - 11:30" } }
     sortBy: "room"
     order: ASC
   ) {
@@ -87,12 +85,11 @@ query currentSessions {
         abstract
         time
         room
-        year
       }
     }
   },
   session4: allSession(
-    filter: { year: { dteq: "2019" }, time: { eq: "12:45 - 1:45" } }
+    filter: { time: { eq: "12:45 - 1:45" } }
     sortBy: "room"
     order: ASC
   ) {
@@ -104,12 +101,11 @@ query currentSessions {
         abstract
         time
         room
-        year
       }
     }
   },
   session5: allSession(
-    filter: { year: { dteq: "2019" }, time: { eq: "1:55 - 2:55" } }
+    filter: { time: { eq: "1:55 - 2:55" } }
     sortBy: "room"
     order: ASC
   ) {
@@ -121,12 +117,11 @@ query currentSessions {
         abstract
         time
         room
-        year
       }
     }
   },
   session6: allSession(
-    filter: { year: { dteq: "2019" }, time: { eq: "3:05 - 4:05" } }
+    filter: { time: { eq: "3:05 - 4:05" } }
     sortBy: "room"
     order: ASC
   ) {
@@ -138,12 +133,11 @@ query currentSessions {
         abstract
         time
         room
-        year
       }
     }
   }
   session7: allSession(
-    filter: { year: { dteq: "2019" }, time: { eq: "4:15 - 5:15" } }
+    filter: { time: { eq: "4:15 - 5:15" } }
     sortBy: "room"
     order: ASC
   ) {
@@ -155,7 +149,6 @@ query currentSessions {
         abstract
         time
         room
-        year
       }
     }
   }
