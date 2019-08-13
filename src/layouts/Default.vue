@@ -38,6 +38,5 @@ body {
   max-width: 1600px;
   width: 100%;
   margin: 0px auto;
-  background: white;
 }
 </style>
