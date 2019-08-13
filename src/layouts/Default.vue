@@ -1,7 +1,7 @@
 <template>
   <div class="layout">
-    <slot/>
-    <Footer/>
+    <slot />
+    <Footer />
   </div>
 </template>
 
@@ -37,6 +37,7 @@ body {
 .layout {
   max-width: 1600px;
   width: 100%;
-  margin: 0px auto
+  margin: 0px auto;
+  background: white;
 }
 </style>
