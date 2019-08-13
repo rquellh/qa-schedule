@@ -3,14 +3,14 @@
     <Navbar />
     <Layout>
       <v-content>
-          <SessionList :sessions="$page.session1"/>
-          <SessionList :sessions="$page.session2"/>
-          <SessionList :sessions="$page.session3"/>
-          <SessionList :sessions="$page.session4"/>
-          <SessionList :sessions="$page.session5"/>
-          <SessionList :sessions="$page.session6"/>
-          <SessionList :sessions="$page.session7"/>
-          <div>{{favorites}}</div>
+        <SessionList :sessions="$page.session1" />
+        <SessionList :sessions="$page.session2" />
+        <SessionList :sessions="$page.session3" />
+        <SessionList :sessions="$page.session4" />
+        <SessionList :sessions="$page.session5" />
+        <SessionList :sessions="$page.session6" />
+        <SessionList :sessions="$page.session7" />
+        <div>{{favorites}}</div>
       </v-content>
     </Layout>
   </v-app>
@@ -19,17 +19,22 @@
 <script>
 import SessionList from "@/components/SessionList";
 import Navbar from "@/components/IndexNavbar";
-import favorites from '@/data/favorites.json';
+import favorites from "@/data/favorites.json";
 
 export default {
   components: {
     SessionList,
     Navbar
   },
-  data: function(){
+  data: function() {
     return {
       favorites
-    }
+    };
+  },
+  metaInfo() {
+    return {
+      title: "Schedule"
+    };
   }
 };
 </script>
@@ -152,5 +157,4 @@ query currentSessions {
 </page-query>
 
 <style scoped>
-
 </style>
