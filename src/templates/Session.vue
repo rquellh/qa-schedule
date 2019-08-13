@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <SessionNavbar :speaker="$page.session.speaker"/>
+    <SessionNavbar :speaker="$page.session.speaker" />
     <Layout>
       <v-content class="my-1">
         <v-container ma-0 pa-0 fluid align-center>
@@ -25,22 +25,22 @@
               ></v-img>
             </v-flex>
             <v-flex xs12 sm8 pa-3>
-              <div>
-                <div class="headline font-weight-bold">
-                  {{ $page.session.speaker }}
-                  <span class="pl-5">
-                    <v-btn flat icon color="primary" class="px-3">
-                      <v-icon class="px-3">fab fa-linkedin</v-icon>
-                    </v-btn>
-                    <v-btn flat icon color="primary" class="px-3">
-                      <v-icon class="px-3">fab fa-twitter</v-icon>
-                    </v-btn>
-                    <v-btn flat icon color="primary" class="px-3">
-                      <v-icon class="px-3">fas fa-globe</v-icon>
-                    </v-btn>
-                  </span>
-                </div>
-              </div>
+              <v-layout row align-center ma-0 pa-0 wrap>
+                <v-flex>
+                  <div class="headline font-weight-bold">{{ $page.session.speaker }}</div>
+                </v-flex>
+                <v-flex>
+                  <v-btn flat icon color="primary">
+                    <v-icon>fab fa-linkedin</v-icon>
+                  </v-btn>
+                  <v-btn flat icon color="primary">
+                    <v-icon>fab fa-twitter</v-icon>
+                  </v-btn>
+                  <v-btn flat icon color="primary">
+                    <v-icon>fas fa-laptop</v-icon>
+                  </v-btn>
+                </v-flex>
+              </v-layout>
               <div class="subheading">{{ $page.session.bio }}</div>
             </v-flex>
           </v-layout>
