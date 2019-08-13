@@ -15,35 +15,8 @@
               <div class="subheading">Room: {{$page.session.room}}</div>
             </v-flex>
           </v-layout>
-          <v-layout ma-0 pa-0 row wrap>
-            <v-flex xs12 sm4 pa-3 align-self-center>
-              <v-img
-                :src="require('@/assets/images/generic-profile.png')"
-                :aspect-ratio="1"
-                max-height="300px"
-                contain
-              ></v-img>
-            </v-flex>
-            <v-flex xs12 sm8 pa-3>
-              <v-layout row align-center ma-0 pa-0 wrap>
-                <v-flex>
-                  <div class="headline font-weight-bold">{{ $page.session.speaker }}</div>
-                </v-flex>
-                <v-flex>
-                  <v-btn flat icon color="primary">
-                    <v-icon>fab fa-linkedin</v-icon>
-                  </v-btn>
-                  <v-btn flat icon color="primary">
-                    <v-icon>fab fa-twitter</v-icon>
-                  </v-btn>
-                  <v-btn flat icon color="primary">
-                    <v-icon>fas fa-laptop</v-icon>
-                  </v-btn>
-                </v-flex>
-              </v-layout>
-              <div class="subheading">{{ $page.session.bio }}</div>
-            </v-flex>
-          </v-layout>
+          <SpeakerBio :speaker="$page.session.speaker" :bio="$page.session.bio" />
+          <SpeakerBio v-if="$page.session.speaker2" :speaker="$page.session.speaker2" :bio="$page.session.bio2"/>
         </v-container>
       </v-content>
     </Layout>
@@ -54,7 +27,9 @@
 query Session ($path: String!) {
   session (path: $path) {
     speaker
+    speaker2
     bio
+    bio2
     title
     abstract
     time
@@ -66,11 +41,13 @@ query Session ($path: String!) {
 <script>
 import Layout from "@/layouts/Default";
 import SessionNavbar from "@/components/SessionNavbar";
+import SpeakerBio from "@/components/SpeakerBio"
 
 export default {
   components: {
     Layout,
-    SessionNavbar
+    SessionNavbar,
+    SpeakerBio
   },
   metaInfo() {
     return {
