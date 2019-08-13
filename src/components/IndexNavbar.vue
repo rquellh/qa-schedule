@@ -5,7 +5,7 @@
     <v-spacer></v-spacer>
     <v-btn flat @click="favorites.filterall = !favorites.filterall">
       <div v-if="favorites.filterall" class="text-capitalize">
-        Filtered<v-icon right small>fas fa-star</v-icon>
+        Filtered<v-icon right small color="amber">fas fa-star</v-icon>
       </div>
       <div v-else class="text-capitalize">
         Filter<v-icon right small>far fa-star</v-icon>

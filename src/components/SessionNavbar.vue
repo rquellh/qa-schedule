@@ -9,7 +9,7 @@
       @click="favorites.sessions[indexOf(speaker)].saved = !favorites.sessions[indexOf(speaker)].saved"
     >
       <div v-if="favorites.sessions[indexOf(speaker)].saved" class="text-capitalize">
-        <v-icon left small>fas fa-star</v-icon>Saved
+        <v-icon left small color="amber">fas fa-star</v-icon>Saved
       </div>
       <div v-else class="text-capitalize">
         <v-icon left small>far fa-star</v-icon>Save
