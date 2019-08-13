@@ -23,8 +23,9 @@
               </v-list-tile-sub-title>
             </v-list-tile-content>
             <v-list-tile-action>
-              <v-btn icon ripple @click.prevent.stop="active = !active">
-                <v-icon small :color="active ? 'teal' : 'grey'">far fa-star</v-icon>
+              <v-btn icon ripple @click.prevent.stop="favorites.sessions[indexOf(session.node.speaker)].saved = !favorites.sessions[indexOf(session.node.speaker)].saved">
+                <v-icon v-if="favorites.sessions[indexOf(session.node.speaker)].saved" small color="amber">fas fa-star</v-icon>
+                <v-icon v-else small color="grey">far fa-star</v-icon>
               </v-btn>
             </v-list-tile-action>
           </v-list-tile>
@@ -37,15 +38,25 @@
 
 
 <script>
+import favorites from "@/data/favorites.json";
+
 export default {
   props: ["sessions"],
   data: function() {
     return {
-      active: false,
+      favorites,
       timeFiltered: `t${this.sessions.edges[0].node.time.replace(/:|-| /g, "")}`
     };
   },
   methods: {
+    indexOf: function(speakerName) {
+      var indexPos = this.favorites.sessions
+        .map(function(instance) {
+          return instance.speaker;
+        })
+        .indexOf(speakerName);
+      return indexPos;
+    },
     roomFiltered: function(index) {
       return this.sessions.edges[index].node.room
         .replace(/:|-| |&/g, "")

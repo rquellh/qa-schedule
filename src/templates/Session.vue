@@ -80,12 +80,3 @@ export default {
 };
 </script>
 
-<style scoped>
-.underline-primary {
-  border-bottom: 1px solid var(--v-primary-base);
-}
-.underline-secondary {
-  border-bottom: 1px solid var(--v-secondary-base);
-}
-</style>
-

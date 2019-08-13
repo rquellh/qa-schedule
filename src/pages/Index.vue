@@ -10,6 +10,7 @@
           <SessionList :sessions="$page.session5"/>
           <SessionList :sessions="$page.session6"/>
           <SessionList :sessions="$page.session7"/>
+          <div>{{favorites}}</div>
       </v-content>
     </Layout>
   </v-app>
@@ -17,13 +18,19 @@
 
 <script>
 import SessionList from "@/components/SessionList";
-import Navbar from "@/components/IndexNavbar"
+import Navbar from "@/components/IndexNavbar";
+import favorites from '@/data/favorites.json';
 
 export default {
   components: {
     SessionList,
     Navbar
   },
+  data: function(){
+    return {
+      favorites
+    }
+  }
 };
 </script>
 
