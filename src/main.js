@@ -6,9 +6,16 @@ import DefaultLayout from '~/layouts/Default.vue'
 import 'vuetify/dist/vuetify.min.css'
 
 export default function (Vue, { router, head, isClient }) {
+  // Setup fontawesome
   head.link.push({
     rel: 'stylesheet',
     href: 'https://use.fontawesome.com/releases/v5.8.2/css/all.css'
+  })
+
+  // Setup manifest for PWA
+  head.link.push({
+    rel: 'manifest',
+    href: '/qa-schedule/manifest.json'
   })
 
   //Setup Vuetify
