@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html data-html-server-rendered="true" lang="en" data-vue-tag="lang">
+  <head>
+    <title data-vue-tag="true">Puneet Arya - QA or the Highway</title><meta data-vue-tag="true" charset="utf-8"><meta data-vue-tag="true" name="generator" content="Gridsome v0.5.8"><meta data-vue-tag="true" data-key="viewport" name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta data-vue-tag="true" data-key="description" name="description" content=""><meta data-vue-tag="true" data-key="format-detection" name="format-detection" content="telephone=no"><link data-vue-tag="true" rel="icon" type="image/png" sizes="16x16" href="/qa-schedule/assets/static/favicon.ce0531f.af23d95.png"><link data-vue-tag="true" rel="icon" type="image/png" sizes="32x32" href="/qa-schedule/assets/static/favicon.ac8d93a.af23d95.png"><link data-vue-tag="true" rel="icon" type="image/png" sizes="96x96" href="/qa-schedule/assets/static/favicon.b9532cc.af23d95.png"><link data-vue-tag="true" rel="apple-touch-icon" type="image/png" sizes="76x76" href="/qa-schedule/assets/static/favicon.f22e9f3.af23d95.png"><link data-vue-tag="true" rel="apple-touch-icon" type="image/png" sizes="152x152" href="/qa-schedule/assets/static/favicon.62d22cb.af23d95.png"><link data-vue-tag="true" rel="apple-touch-icon" type="image/png" sizes="120x120" href="/qa-schedule/assets/static/favicon.1539b60.af23d95.png"><link data-vue-tag="true" rel="apple-touch-icon" type="image/png" sizes="167x167" href="/qa-schedule/assets/static/favicon.dc0cdc5.af23d95.png"><link data-vue-tag="true" rel="apple-touch-icon" type="image/png" sizes="180x180" href="/qa-schedule/assets/static/favicon.7b22250.af23d95.png"><link data-vue-tag="true" rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"><link data-vue-tag="true" rel="manifest" href="/qa-schedule/manifest.json"><style data-vue-tag="true" id="vuetify-theme-stylesheet" type="text/css">:root {
+  --v-primary-base: #1b51aa;
+  --v-primary-lighten5: #bad2ff;
+  --v-primary-lighten4: #9cb6ff;
+  --v-primary-lighten3: #7f9cff;
+  --v-primary-lighten2: #6182e2;
+  --v-primary-lighten1: #4269c6;
+  --v-primary-darken1: #003b8f;
+  --v-primary-darken2: #002675;
+  --v-primary-darken3: #00135c;
+  --v-primary-darken4: #000044;
+  --v-secondary-base: #df2e30;
+  --v-secondary-lighten5: #ffc3ad;
+  --v-secondary-lighten4: #ffa692;
+  --v-secondary-lighten3: #ff8978;
+  --v-secondary-lighten2: #ff6c5f;
+  --v-secondary-lighten1: #ff4f47;
+  --v-secondary-darken1: #bf001a;
+  --v-secondary-darken2: #9f0003;
+  --v-secondary-darken3: #800000;
+  --v-secondary-darken4: #630000;
+  --v-accent-base: #6aaece;
+  --v-accent-lighten5: #faffff;
+  --v-accent-lighten4: #dcffff;
+  --v-accent-lighten3: #bfffff;
+  --v-accent-lighten2: #a2e6ff;
+  --v-accent-lighten1: #86c9ea;
+  --v-accent-darken1: #4e93b2;
+  --v-accent-darken2: #2f7a98;
+  --v-accent-darken3: #02617e;
+  --v-accent-darken4: #004965;
+  --v-error-base: #ff5252;
+  --v-error-lighten5: #ffe4d5;
+  --v-error-lighten4: #ffc6b9;
+  --v-error-lighten3: #ffa99e;
+  --v-error-lighten2: #ff8c84;
+  --v-error-lighten1: #ff6f6a;
+  --v-error-darken1: #df323b;
+  --v-error-darken2: #bf0025;
+  --v-error-darken3: #9f0010;
+  --v-error-darken4: #800000;
+  --v-info-base: #2196f3;
+  --v-info-lighten5: #d4ffff;
+  --v-info-lighten4: #b5ffff;
+  --v-info-lighten3: #95e8ff;
+  --v-info-lighten2: #75ccff;
+  --v-info-lighten1: #51b0ff;
+  --v-info-darken1: #007cd6;
+  --v-info-darken2: #0064ba;
+  --v-info-darken3: #004d9f;
+  --v-info-darken4: #003784;
+  --v-success-base: #4caf50;
+  --v-success-lighten5: #dcffd6;
+  --v-success-lighten4: #beffba;
+  --v-success-lighten3: #a2ff9e;
+  --v-success-lighten2: #85e783;
+  --v-success-lighten1: #69cb69;
+  --v-success-darken1: #2d9437;
+  --v-success-darken2: #00791e;
+  --v-success-darken3: #006000;
+  --v-success-darken4: #004700;
+  --v-warning-base: #fb8c00;
+  --v-warning-lighten5: #ffff9e;
+  --v-warning-lighten4: #fffb82;
+  --v-warning-lighten3: #ffdf67;
+  --v-warning-lighten2: #ffc24b;
+  --v-warning-lighten1: #ffa72d;
+  --v-warning-darken1: #db7200;
+  --v-warning-darken2: #bb5900;
+  --v-warning-darken3: #9d4000;
+  --v-warning-darken4: #802700;
+}
+
+a { color: var(--v-primary-base); }
+.primary {
+  background-color: var(--v-primary-base) !important;
+  border-color: var(--v-primary-base) !important;
+}
+.primary--text {
+  color: var(--v-primary-base) !important;
+  caret-color: var(--v-primary-base) !important;
+}
+.primary.lighten-5 {
+  background-color: var(--v-primary-lighten5) !important;
+  border-color: var(--v-primary-lighten5) !important;
+}
+.primary--text.text--lighten-5 {
+  color: var(--v-primary-lighten5) !important;
+  caret-color: var(--v-primary-lighten5) !important;
+}
+.primary.lighten-4 {
+  background-color: var(--v-primary-lighten4) !important;
+  border-color: var(--v-primary-lighten4) !important;
+}
+.primary--text.text--lighten-4 {
+  color: var(--v-primary-lighten4) !important;
+  caret-color: var(--v-primary-lighten4) !important;
+}
+.primary.lighten-3 {
+  background-color: var(--v-primary-lighten3) !important;
+  border-color: var(--v-primary-lighten3) !important;
+}
+.primary--text.text--lighten-3 {
+  color: var(--v-primary-lighten3) !important;
+  caret-color: var(--v-primary-lighten3) !important;
+}
+.primary.lighten-2 {
+  background-color: var(--v-primary-lighten2) !important;
+  border-color: var(--v-primary-lighten2) !important;
+}
+.primary--text.text--lighten-2 {
+  color: var(--v-primary-lighten2) !important;
+  caret-color: var(--v-primary-lighten2) !important;
+}
+.primary.lighten-1 {
+  background-color: var(--v-primary-lighten1) !important;
+  border-color: var(--v-primary-lighten1) !important;
+}
+.primary--text.text--lighten-1 {
+  color: var(--v-primary-lighten1) !important;
+  caret-color: var(--v-primary-lighten1) !important;
+}
+.primary.darken-1 {
+  background-color: var(--v-primary-darken1) !important;
+  border-color: var(--v-primary-darken1) !important;
+}
+.primary--text.text--darken-1 {
+  color: var(--v-primary-darken1) !important;
+  caret-color: var(--v-primary-darken1) !important;
+}
+.primary.darken-2 {
+  background-color: var(--v-primary-darken2) !important;
+  border-color: var(--v-primary-darken2) !important;
+}
+.primary--text.text--darken-2 {
+  color: var(--v-primary-darken2) !important;
+  caret-color: var(--v-primary-darken2) !important;
+}
+.primary.darken-3 {
+  background-color: var(--v-primary-darken3) !important;
+  border-color: var(--v-primary-darken3) !important;
+}
+.primary--text.text--darken-3 {
+  color: var(--v-primary-darken3) !important;
+  caret-color: var(--v-primary-darken3) !important;
+}
+.primary.darken-4 {
+  background-color: var(--v-primary-darken4) !important;
+  border-color: var(--v-primary-darken4) !important;
+}
+.primary--text.text--darken-4 {
+  color: var(--v-primary-darken4) !important;
+  caret-color: var(--v-primary-darken4) !important;
+}
+.secondary {
+  background-color: var(--v-secondary-base) !important;
+  border-color: var(--v-secondary-base) !important;
+}
+.secondary--text {
+  color: var(--v-secondary-base) !important;
+  caret-color: var(--v-secondary-base) !important;
+}
+.secondary.lighten-5 {
+  background-color: var(--v-secondary-lighten5) !important;
+  border-color: var(--v-secondary-lighten5) !important;
+}
+.secondary--text.text--lighten-5 {
+  color: var(--v-secondary-lighten5) !important;
+  caret-color: var(--v-secondary-lighten5) !important;
+}
+.secondary.lighten-4 {
+  background-color: var(--v-secondary-lighten4) !important;
+  border-color: var(--v-secondary-lighten4) !important;
+}
+.secondary--text.text--lighten-4 {
+  color: var(--v-secondary-lighten4) !important;
+  caret-color: var(--v-secondary-lighten4) !important;
+}
+.secondary.lighten-3 {
+  background-color: var(--v-secondary-lighten3) !important;
+  border-color: var(--v-secondary-lighten3) !important;
+}
+.secondary--text.text--lighten-3 {
+  color: var(--v-secondary-lighten3) !important;
+  caret-color: var(--v-secondary-lighten3) !important;
+}
+.secondary.lighten-2 {
+  background-color: var(--v-secondary-lighten2) !important;
+  border-color: var(--v-secondary-lighten2) !important;
+}
+.secondary--text.text--lighten-2 {
+  color: var(--v-secondary-lighten2) !important;
+  caret-color: var(--v-secondary-lighten2) !important;
+}
+.secondary.lighten-1 {
+  background-color: var(--v-secondary-lighten1) !important;
+  border-color: var(--v-secondary-lighten1) !important;
+}
+.secondary--text.text--lighten-1 {
+  color: var(--v-secondary-lighten1) !important;
+  caret-color: var(--v-secondary-lighten1) !important;
+}
+.secondary.darken-1 {
+  background-color: var(--v-secondary-darken1) !important;
+  border-color: var(--v-secondary-darken1) !important;
+}
+.secondary--text.text--darken-1 {
+  color: var(--v-secondary-darken1) !important;
+  caret-color: var(--v-secondary-darken1) !important;
+}
+.secondary.darken-2 {
+  background-color: var(--v-secondary-darken2) !important;
+  border-color: var(--v-secondary-darken2) !important;
+}
+.secondary--text.text--darken-2 {
+  color: var(--v-secondary-darken2) !important;
+  caret-color: var(--v-secondary-darken2) !important;
+}
+.secondary.darken-3 {
+  background-color: var(--v-secondary-darken3) !important;
+  border-color: var(--v-secondary-darken3) !important;
+}
+.secondary--text.text--darken-3 {
+  color: var(--v-secondary-darken3) !important;
+  caret-color: var(--v-secondary-darken3) !important;
+}
+.secondary.darken-4 {
+  background-color: var(--v-secondary-darken4) !important;
+  border-color: var(--v-secondary-darken4) !important;
+}
+.secondary--text.text--darken-4 {
+  color: var(--v-secondary-darken4) !important;
+  caret-color: var(--v-secondary-darken4) !important;
+}
+.accent {
+  background-color: var(--v-accent-base) !important;
+  border-color: var(--v-accent-base) !important;
+}
+.accent--text {
+  color: var(--v-accent-base) !important;
+  caret-color: var(--v-accent-base) !important;
+}
+.accent.lighten-5 {
+  background-color: var(--v-accent-lighten5) !important;
+  border-color: var(--v-accent-lighten5) !important;
+}
+.accent--text.text--lighten-5 {
+  color: var(--v-accent-lighten5) !important;
+  caret-color: var(--v-accent-lighten5) !important;
+}
+.accent.lighten-4 {
+  background-color: var(--v-accent-lighten4) !important;
+  border-color: var(--v-accent-lighten4) !important;
+}
+.accent--text.text--lighten-4 {
+  color: var(--v-accent-lighten4) !important;
+  caret-color: var(--v-accent-lighten4) !important;
+}
+.accent.lighten-3 {
+  background-color: var(--v-accent-lighten3) !important;
+  border-color: var(--v-accent-lighten3) !important;
+}
+.accent--text.text--lighten-3 {
+  color: var(--v-accent-lighten3) !important;
+  caret-color: var(--v-accent-lighten3) !important;
+}
+.accent.lighten-2 {
+  background-color: var(--v-accent-lighten2) !important;
+  border-color: var(--v-accent-lighten2) !important;
+}
+.accent--text.text--lighten-2 {
+  color: var(--v-accent-lighten2) !important;
+  caret-color: var(--v-accent-lighten2) !important;
+}
+.accent.lighten-1 {
+  background-color: var(--v-accent-lighten1) !important;
+  border-color: var(--v-accent-lighten1) !important;
+}
+.accent--text.text--lighten-1 {
+  color: var(--v-accent-lighten1) !important;
+  caret-color: var(--v-accent-lighten1) !important;
+}
+.accent.darken-1 {
+  background-color: var(--v-accent-darken1) !important;
+  border-color: var(--v-accent-darken1) !important;
+}
+.accent--text.text--darken-1 {
+  color: var(--v-accent-darken1) !important;
+  caret-color: var(--v-accent-darken1) !important;
+}
+.accent.darken-2 {
+  background-color: var(--v-accent-darken2) !important;
+  border-color: var(--v-accent-darken2) !important;
+}
+.accent--text.text--darken-2 {
+  color: var(--v-accent-darken2) !important;
+  caret-color: var(--v-accent-darken2) !important;
+}
+.accent.darken-3 {
+  background-color: var(--v-accent-darken3) !important;
+  border-color: var(--v-accent-darken3) !important;
+}
+.accent--text.text--darken-3 {
+  color: var(--v-accent-darken3) !important;
+  caret-color: var(--v-accent-darken3) !important;
+}
+.accent.darken-4 {
+  background-color: var(--v-accent-darken4) !important;
+  border-color: var(--v-accent-darken4) !important;
+}
+.accent--text.text--darken-4 {
+  color: var(--v-accent-darken4) !important;
+  caret-color: var(--v-accent-darken4) !important;
+}
+.error {
+  background-color: var(--v-error-base) !important;
+  border-color: var(--v-error-base) !important;
+}
+.error--text {
+  color: var(--v-error-base) !important;
+  caret-color: var(--v-error-base) !important;
+}
+.error.lighten-5 {
+  background-color: var(--v-error-lighten5) !important;
+  border-color: var(--v-error-lighten5) !important;
+}
+.error--text.text--lighten-5 {
+  color: var(--v-error-lighten5) !important;
+  caret-color: var(--v-error-lighten5) !important;
+}
+.error.lighten-4 {
+  background-color: var(--v-error-lighten4) !important;
+  border-color: var(--v-error-lighten4) !important;
+}
+.error--text.text--lighten-4 {
+  color: var(--v-error-lighten4) !important;
+  caret-color: var(--v-error-lighten4) !important;
+}
+.error.lighten-3 {
+  background-color: var(--v-error-lighten3) !important;
+  border-color: var(--v-error-lighten3) !important;
+}
+.error--text.text--lighten-3 {
+  color: var(--v-error-lighten3) !important;
+  caret-color: var(--v-error-lighten3) !important;
+}
+.error.lighten-2 {
+  background-color: var(--v-error-lighten2) !important;
+  border-color: var(--v-error-lighten2) !important;
+}
+.error--text.text--lighten-2 {
+  color: var(--v-error-lighten2) !important;
+  caret-color: var(--v-error-lighten2) !important;
+}
+.error.lighten-1 {
+  background-color: var(--v-error-lighten1) !important;
+  border-color: var(--v-error-lighten1) !important;
+}
+.error--text.text--lighten-1 {
+  color: var(--v-error-lighten1) !important;
+  caret-color: var(--v-error-lighten1) !important;
+}
+.error.darken-1 {
+  background-color: var(--v-error-darken1) !important;
+  border-color: var(--v-error-darken1) !important;
+}
+.error--text.text--darken-1 {
+  color: var(--v-error-darken1) !important;
+  caret-color: var(--v-error-darken1) !important;
+}
+.error.darken-2 {
+  background-color: var(--v-error-darken2) !important;
+  border-color: var(--v-error-darken2) !important;
+}
+.error--text.text--darken-2 {
+  color: var(--v-error-darken2) !important;
+  caret-color: var(--v-error-darken2) !important;
+}
+.error.darken-3 {
+  background-color: var(--v-error-darken3) !important;
+  border-color: var(--v-error-darken3) !important;
+}
+.error--text.text--darken-3 {
+  color: var(--v-error-darken3) !important;
+  caret-color: var(--v-error-darken3) !important;
+}
+.error.darken-4 {
+  background-color: var(--v-error-darken4) !important;
+  border-color: var(--v-error-darken4) !important;
+}
+.error--text.text--darken-4 {
+  color: var(--v-error-darken4) !important;
+  caret-color: var(--v-error-darken4) !important;
+}
+.info {
+  background-color: var(--v-info-base) !important;
+  border-color: var(--v-info-base) !important;
+}
+.info--text {
+  color: var(--v-info-base) !important;
+  caret-color: var(--v-info-base) !important;
+}
+.info.lighten-5 {
+  background-color: var(--v-info-lighten5) !important;
+  border-color: var(--v-info-lighten5) !important;
+}
+.info--text.text--lighten-5 {
+  color: var(--v-info-lighten5) !important;
+  caret-color: var(--v-info-lighten5) !important;
+}
+.info.lighten-4 {
+  background-color: var(--v-info-lighten4) !important;
+  border-color: var(--v-info-lighten4) !important;
+}
+.info--text.text--lighten-4 {
+  color: var(--v-info-lighten4) !important;
+  caret-color: var(--v-info-lighten4) !important;
+}
+.info.lighten-3 {
+  background-color: var(--v-info-lighten3) !important;
+  border-color: var(--v-info-lighten3) !important;
+}
+.info--text.text--lighten-3 {
+  color: var(--v-info-lighten3) !important;
+  caret-color: var(--v-info-lighten3) !important;
+}
+.info.lighten-2 {
+  background-color: var(--v-info-lighten2) !important;
+  border-color: var(--v-info-lighten2) !important;
+}
+.info--text.text--lighten-2 {
+  color: var(--v-info-lighten2) !important;
+  caret-color: var(--v-info-lighten2) !important;
+}
+.info.lighten-1 {
+  background-color: var(--v-info-lighten1) !important;
+  border-color: var(--v-info-lighten1) !important;
+}
+.info--text.text--lighten-1 {
+  color: var(--v-info-lighten1) !important;
+  caret-color: var(--v-info-lighten1) !important;
+}
+.info.darken-1 {
+  background-color: var(--v-info-darken1) !important;
+  border-color: var(--v-info-darken1) !important;
+}
+.info--text.text--darken-1 {
+  color: var(--v-info-darken1) !important;
+  caret-color: var(--v-info-darken1) !important;
+}
+.info.darken-2 {
+  background-color: var(--v-info-darken2) !important;
+  border-color: var(--v-info-darken2) !important;
+}
+.info--text.text--darken-2 {
+  color: var(--v-info-darken2) !important;
+  caret-color: var(--v-info-darken2) !important;
+}
+.info.darken-3 {
+  background-color: var(--v-info-darken3) !important;
+  border-color: var(--v-info-darken3) !important;
+}
+.info--text.text--darken-3 {
+  color: var(--v-info-darken3) !important;
+  caret-color: var(--v-info-darken3) !important;
+}
+.info.darken-4 {
+  background-color: var(--v-info-darken4) !important;
+  border-color: var(--v-info-darken4) !important;
+}
+.info--text.text--darken-4 {
+  color: var(--v-info-darken4) !important;
+  caret-color: var(--v-info-darken4) !important;
+}
+.success {
+  background-color: var(--v-success-base) !important;
+  border-color: var(--v-success-base) !important;
+}
+.success--text {
+  color: var(--v-success-base) !important;
+  caret-color: var(--v-success-base) !important;
+}
+.success.lighten-5 {
+  background-color: var(--v-success-lighten5) !important;
+  border-color: var(--v-success-lighten5) !important;
+}
+.success--text.text--lighten-5 {
+  color: var(--v-success-lighten5) !important;
+  caret-color: var(--v-success-lighten5) !important;
+}
+.success.lighten-4 {
+  background-color: var(--v-success-lighten4) !important;
+  border-color: var(--v-success-lighten4) !important;
+}
+.success--text.text--lighten-4 {
+  color: var(--v-success-lighten4) !important;
+  caret-color: var(--v-success-lighten4) !important;
+}
+.success.lighten-3 {
+  background-color: var(--v-success-lighten3) !important;
+  border-color: var(--v-success-lighten3) !important;
+}
+.success--text.text--lighten-3 {
+  color: var(--v-success-lighten3) !important;
+  caret-color: var(--v-success-lighten3) !important;
+}
+.success.lighten-2 {
+  background-color: var(--v-success-lighten2) !important;
+  border-color: var(--v-success-lighten2) !important;
+}
+.success--text.text--lighten-2 {
+  color: var(--v-success-lighten2) !important;
+  caret-color: var(--v-success-lighten2) !important;
+}
+.success.lighten-1 {
+  background-color: var(--v-success-lighten1) !important;
+  border-color: var(--v-success-lighten1) !important;
+}
+.success--text.text--lighten-1 {
+  color: var(--v-success-lighten1) !important;
+  caret-color: var(--v-success-lighten1) !important;
+}
+.success.darken-1 {
+  background-color: var(--v-success-darken1) !important;
+  border-color: var(--v-success-darken1) !important;
+}
+.success--text.text--darken-1 {
+  color: var(--v-success-darken1) !important;
+  caret-color: var(--v-success-darken1) !important;
+}
+.success.darken-2 {
+  background-color: var(--v-success-darken2) !important;
+  border-color: var(--v-success-darken2) !important;
+}
+.success--text.text--darken-2 {
+  color: var(--v-success-darken2) !important;
+  caret-color: var(--v-success-darken2) !important;
+}
+.success.darken-3 {
+  background-color: var(--v-success-darken3) !important;
+  border-color: var(--v-success-darken3) !important;
+}
+.success--text.text--darken-3 {
+  color: var(--v-success-darken3) !important;
+  caret-color: var(--v-success-darken3) !important;
+}
+.success.darken-4 {
+  background-color: var(--v-success-darken4) !important;
+  border-color: var(--v-success-darken4) !important;
+}
+.success--text.text--darken-4 {
+  color: var(--v-success-darken4) !important;
+  caret-color: var(--v-success-darken4) !important;
+}
+.warning {
+  background-color: var(--v-warning-base) !important;
+  border-color: var(--v-warning-base) !important;
+}
+.warning--text {
+  color: var(--v-warning-base) !important;
+  caret-color: var(--v-warning-base) !important;
+}
+.warning.lighten-5 {
+  background-color: var(--v-warning-lighten5) !important;
+  border-color: var(--v-warning-lighten5) !important;
+}
+.warning--text.text--lighten-5 {
+  color: var(--v-warning-lighten5) !important;
+  caret-color: var(--v-warning-lighten5) !important;
+}
+.warning.lighten-4 {
+  background-color: var(--v-warning-lighten4) !important;
+  border-color: var(--v-warning-lighten4) !important;
+}
+.warning--text.text--lighten-4 {
+  color: var(--v-warning-lighten4) !important;
+  caret-color: var(--v-warning-lighten4) !important;
+}
+.warning.lighten-3 {
+  background-color: var(--v-warning-lighten3) !important;
+  border-color: var(--v-warning-lighten3) !important;
+}
+.warning--text.text--lighten-3 {
+  color: var(--v-warning-lighten3) !important;
+  caret-color: var(--v-warning-lighten3) !important;
+}
+.warning.lighten-2 {
+  background-color: var(--v-warning-lighten2) !important;
+  border-color: var(--v-warning-lighten2) !important;
+}
+.warning--text.text--lighten-2 {
+  color: var(--v-warning-lighten2) !important;
+  caret-color: var(--v-warning-lighten2) !important;
+}
+.warning.lighten-1 {
+  background-color: var(--v-warning-lighten1) !important;
+  border-color: var(--v-warning-lighten1) !important;
+}
+.warning--text.text--lighten-1 {
+  color: var(--v-warning-lighten1) !important;
+  caret-color: var(--v-warning-lighten1) !important;
+}
+.warning.darken-1 {
+  background-color: var(--v-warning-darken1) !important;
+  border-color: var(--v-warning-darken1) !important;
+}
+.warning--text.text--darken-1 {
+  color: var(--v-warning-darken1) !important;
+  caret-color: var(--v-warning-darken1) !important;
+}
+.warning.darken-2 {
+  background-color: var(--v-warning-darken2) !important;
+  border-color: var(--v-warning-darken2) !important;
+}
+.warning--text.text--darken-2 {
+  color: var(--v-warning-darken2) !important;
+  caret-color: var(--v-warning-darken2) !important;
+}
+.warning.darken-3 {
+  background-color: var(--v-warning-darken3) !important;
+  border-color: var(--v-warning-darken3) !important;
+}
+.warning--text.text--darken-3 {
+  color: var(--v-warning-darken3) !important;
+  caret-color: var(--v-warning-darken3) !important;
+}
+.warning.darken-4 {
+  background-color: var(--v-warning-darken4) !important;
+  border-color: var(--v-warning-darken4) !important;
+}
+.warning--text.text--darken-4 {
+  color: var(--v-warning-darken4) !important;
+  caret-color: var(--v-warning-darken4) !important;
+}</style><noscript data-vue-tag="true" ><style>.g-image--loading{display:none;}</style></noscript><link rel="preload" href="/qa-schedule/assets/css/0.styles.68ca0704.css" as="style"><link rel="preload" href="/qa-schedule/assets/js/app.df47d95c.js" as="script"><link rel="preload" href="/qa-schedule/assets/js/component--session.99457bcc.js" as="script"><link rel="prefetch" href="/qa-schedule/assets/js/component--404.099ac4c6.js"><link rel="prefetch" href="/qa-schedule/assets/js/component--home.3b38e94b.js"><link rel="prefetch" href="/qa-schedule/assets/js/page-query.f59e176c.js"><link rel="stylesheet" href="/qa-schedule/assets/css/0.styles.68ca0704.css">
+  </head>
+  <body data-vue-tag="">
+    <div data-app="true" data-server-rendered="true" id="app" id="app" class="application theme--light"><div class="application--wrap"><nav class="v-toolbar elevation-0 v-toolbar--dense v-toolbar--fixed theme--dark primary" style="margin-top:0px;padding-right:0px;padding-left:0px;transform:translateY(0px);"><div class="v-toolbar__content" style="height:48px;"><button type="button" class="text-capitalize v-btn v-btn--flat theme--dark"><div class="v-btn__content"><i aria-hidden="true" class="v-icon v-icon--left  fas fa-chevron-left theme--dark" style="font-size:16px;"></i>Back
+  </div></button><div class="spacer"></div><button type="button" class="v-btn v-btn--flat theme--dark"><div class="v-btn__content"><div class="text-capitalize"><i aria-hidden="true" class="v-icon v-icon--left  far fa-star theme--dark" style="font-size:16px;"></i>Save
+    </div></div></button></div></nav><div class="layout"><main class="v-content my-1" style="padding-top:48px;padding-right:0px;padding-bottom:0px;padding-left:0px;"><div class="v-content__wrap"><div class="container ma-0 pa-0 fluid align-center"><div class="layout ma-0 pa-0 row wrap justify-space-between fill-height"><div class="flex xs12 md8 pa-3"><div class="headline font-weight-bold">QA Automation Strategy That Works!</div><div class="subheading">Many eCommerce and Retail IT QA organizations are struggling to support CI/CD and Agile delivery teams due to lack of QA automation. With so much emphasis on Agile and CI/CD, QA organizations are fast becoming a roadblock rather than an enabler. According to WQR 2018- 19, “levels of basic automation are still quite low (between 14-18%)”. We want to help turn around the perception of your QA teams to be seen as partners and enablers. In this session you will learn about: -Building a QA automation roadmap – functional, regression, API testing, performance testing -Building a scalable solution to automate QA efforts for large-scale web applications -Developing an automation footprint that plugs into CI/CD pipeline -Modernizing testing to adapt to the changing digital eCommerce environment and decreasing time-to-market​.</div></div><div class="flex xs12 md4 pa-3"><div class="headline font-weight-bold">Session Information</div><div class="subheading">Time: 3:05 - 4:05</div><div class="subheading">Room: Cartoon Room</div></div></div><div class="layout ma-0 pa-0 row wrap"><div class="flex xs12 sm4 pa-3 justify-center align-center layout"><div class="v-avatar" style="height:300px;width:300px;"><img src="/qa-schedule/assets/img/generic-profile.fb2c2b3c.png"></div></div><div class="flex xs12 sm8 pa-3"><div class="layout align-center"><div class="headline font-weight-bold">Puneet Arya</div><div class="spacer"></div><button type="button" class="v-btn v-btn--flat v-btn--icon theme--light primary--text"><div class="v-btn__content"><i aria-hidden="true" class="v-icon fab fa-linkedin theme--light"></i></div></button><button type="button" class="v-btn v-btn--flat v-btn--icon theme--light primary--text"><div class="v-btn__content"><i aria-hidden="true" class="v-icon fab fa-twitter theme--light"></i></div></button><button type="button" class="v-btn v-btn--flat v-btn--icon theme--light primary--text"><div class="v-btn__content"><i aria-hidden="true" class="v-icon fas fa-laptop theme--light"></i></div></button></div><div class="subheading">Puneet is co-founder of Everest Technologies, Inc., and an IT Executive with 20+ years of global experience. He has been successfully delivering Development and QA solutions for large and medium Retail IT enterprises using a global delivery model. He has worked extensively with all aspects of large Retail IT organizations, including eCommerce, point-of-sale, warehouse management, order management and merchandising systems. His recent focus has been on delivering Omni-Channel, Self-Service Kiosks and Direct-to-Consumer initiatives, as well as Loyalty programs and Labor optimization. He has played a key role in our clients’ DevOps transformation initiatives focused on QA strategy roadmaps, automation and speed to market.</div></div></div><div class="layout ma-0 pa-0 row wrap"><div class="flex xs12 sm4 pa-3 justify-center align-center layout"><div class="v-avatar" style="height:300px;width:300px;"><img src="/qa-schedule/assets/img/generic-profile.fb2c2b3c.png"></div></div><div class="flex xs12 sm8 pa-3"><div class="layout align-center"><div class="headline font-weight-bold">Ajay Pedhagandham</div><div class="spacer"></div><button type="button" class="v-btn v-btn--flat v-btn--icon theme--light primary--text"><div class="v-btn__content"><i aria-hidden="true" class="v-icon fab fa-linkedin theme--light"></i></div></button><button type="button" class="v-btn v-btn--flat v-btn--icon theme--light primary--text"><div class="v-btn__content"><i aria-hidden="true" class="v-icon fab fa-twitter theme--light"></i></div></button><button type="button" class="v-btn v-btn--flat v-btn--icon theme--light primary--text"><div class="v-btn__content"><i aria-hidden="true" class="v-icon fas fa-laptop theme--light"></i></div></button></div><div class="subheading">As Quality Engineering practice manager at Abercrombie &amp; Fitch, Ajay is currently managing a large cross-functional QE team that supports all IT projects and MOB teams across various portfolios. He has nearly 15 years of IT experience ranging from Software Testing, Test Automation, ATDD, Performance Testing to Team Management. Ajay started his career in Performance Testing and wore different Quality related hats throughout his career. He is a digital transformation evangelist, and loves to push the boundaries of what quality means for an organization.</div></div></div></div></div></main><footer class="v-footer v-footer--absolute theme--dark primary" style="height:auto;"><div class="ml-3 caption">
+    Created by Ryan Quellhorst
+  </div><div class="spacer"></div><a href="https://github.com/rquellh" target="_blank" class="mx-3 v-btn v-btn--icon theme--dark"><div class="v-btn__content"><i aria-hidden="true" class="v-icon fab fa-github theme--dark"></i></div></a><a href="https://github.com/rquellh/qa-schedule/issues/new?assignees=&amp;labels=&amp;template=bug_report.md&amp;title=" target="_blank" class="mx-3 v-btn v-btn--icon theme--dark"><div class="v-btn__content"><i aria-hidden="true" class="v-icon fas fa-bug theme--dark"></i></div></a><a href="https://www.linkedin.com/in/ryanquellhorst/" target="_blank" class="mx-3 v-btn v-btn--icon theme--dark"><div class="v-btn__content"><i aria-hidden="true" class="v-icon fab fa-linkedin theme--dark"></i></div></a></footer></div></div></div>
+    <script src="/qa-schedule/assets/js/app.df47d95c.js" defer></script><script src="/qa-schedule/assets/js/component--session.99457bcc.js" defer></script>
+  </body>
+</html>
