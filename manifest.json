@@ -2,14 +2,14 @@
     "name": "QA or the Highway Schedule",
     "short_name": "QA Schedule",
     "icons": [
-      {
-        "src": "logo-192.png",
-        "sizes": "192x192"
-      },
-      {
-        "src": "logo-512.png",
-        "sizes": "512x512"
-      }
+        {
+            "src": "logo-192.png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "logo-512.png",
+            "sizes": "512x512"
+        }
     ],
     "lang": "en-US",
     "start_url": "/",
