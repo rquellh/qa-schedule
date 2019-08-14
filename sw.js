@@ -311,7 +311,7 @@ self.__precacheManifest = [
   },
   {
     "url": "manifest.json",
-    "revision": "1fbba993db289e91d08921c01b37d4f2"
+    "revision": "20755641f15e99265b0596ec5009f660"
   },
   {
     "url": "MatthewEakin/index.html",
@@ -366,7 +366,7 @@ self.__precacheManifest = [
     "revision": "699144f0f3a7e016ab2d57957564c8c9"
   },
   {
-    "url": "/qa-schedule/TimGrant/index.html",
+    "url": "TimGrant/index.html",
     "revision": "38349b24b3e6fe554a426355e4f516e2"
   }
 ].concat(self.__precacheManifest || []);
