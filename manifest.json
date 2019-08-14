@@ -13,7 +13,8 @@
     ],
     "lang": "en-US",
     "start_url": "/qa-schedule",
+    "scope": "/qa-schedule/",
     "display": "standalone",
-    "theme_color": "#29b473",
+    "theme_color": "#1b51aa",
     "background_color": "#ffffff"
 }
