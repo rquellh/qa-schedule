@@ -26,26 +26,6 @@ self.addEventListener('message', (event) => {
  */
 self.__precacheManifest = [
   {
-    "url": "404.html",
-    "revision": "ebcce7f7461cfe10c7fa340bf7f32c8b"
-  },
-  {
-    "url": "AkshitaPuram/index.html",
-    "revision": "c98d77296801e7900a7f8d373f8f2c24"
-  },
-  {
-    "url": "AndyMelichar/index.html",
-    "revision": "035d7d2aeb2e315fc7fb529bbcef6fb9"
-  },
-  {
-    "url": "AnnaHeiermann/index.html",
-    "revision": "4cb0ca86e356a7b4b0f695b5579c9f56"
-  },
-  {
-    "url": "AnneHungate/index.html",
-    "revision": "ccf687f5b81eb1c0d3ee7b5dd12dfa00"
-  },
-  {
     "url": "assets/css/0.styles.68ca0704.css",
     "revision": "bc9790053f018d95f9a420305c2a3b0a"
   },
@@ -54,16 +34,16 @@ self.__precacheManifest = [
     "revision": "fb2c2b3c5a13daad62ffe053d8777cef"
   },
   {
-    "url": "assets/js/app.772af2a0.js",
-    "revision": "7e5a7e4add00ce3a2dcbcdc277e2fff8"
+    "url": "assets/js/app.c9a336b0.js",
+    "revision": "585ba755a9f3a666993046b3e8a66543"
   },
   {
     "url": "assets/js/component--404.099ac4c6.js",
     "revision": "cd4f7ca2eb08fe5e0235b17204d14c25"
   },
   {
-    "url": "assets/js/component--home.ae98c5b8.js",
-    "revision": "86a00f5b681c65f835807fa19067b6b1"
+    "url": "assets/js/component--home.8f4d6587.js",
+    "revision": "d70b0420692b4b3f86c7752aa734bec8"
   },
   {
     "url": "assets/js/component--session.99457bcc.js",
@@ -206,168 +186,8 @@ self.__precacheManifest = [
     "revision": "8b2ad63f212ccbe016ca111d7a7190b5"
   },
   {
-    "url": "assets/static/favicon.1539b60.af23d95.png",
-    "revision": "752a60733122b33e4b64b1523952d823"
-  },
-  {
-    "url": "assets/static/favicon.62d22cb.af23d95.png",
-    "revision": "2beb1e1c63d735a85d00113b399fd7fe"
-  },
-  {
-    "url": "assets/static/favicon.7b22250.af23d95.png",
-    "revision": "572514bea5c580922b5e1dafa1f166c5"
-  },
-  {
-    "url": "assets/static/favicon.ac8d93a.af23d95.png",
-    "revision": "c42bb7e301f0cf3840affb79db8817bf"
-  },
-  {
-    "url": "assets/static/favicon.b9532cc.af23d95.png",
-    "revision": "f5ad8a27b94d2acb8982b68065e36160"
-  },
-  {
-    "url": "assets/static/favicon.ce0531f.af23d95.png",
-    "revision": "31972ee34d31c6a218f742bb3036c7f6"
-  },
-  {
-    "url": "assets/static/favicon.dc0cdc5.af23d95.png",
-    "revision": "b7127cf3ab1b5ef46be9557a2f98ef6d"
-  },
-  {
-    "url": "assets/static/favicon.f22e9f3.af23d95.png",
-    "revision": "7938baa645c1bcf32367c6b7fdaae540"
-  },
-  {
-    "url": "BrendanConnolly/index.html",
-    "revision": "800a198a5b1b0476ba109f021a769ed5"
-  },
-  {
-    "url": "BrianBayer/index.html",
-    "revision": "bd10071dbfa371cf0863f247a5771d7c"
-  },
-  {
-    "url": "data.json",
-    "revision": "0fdb6edbdb77e8b5660f0072eaf1259c"
-  },
-  {
-    "url": "DaveSadlon/index.html",
-    "revision": "77730191b452e7ea84bd46267bf852da"
-  },
-  {
-    "url": "DonavanStanley/index.html",
-    "revision": "7c66b413e03c85a6434f16bc10973650"
-  },
-  {
-    "url": "EranKinsbruner/index.html",
-    "revision": "e4baf02858878b6922f5bc064cd90bc9"
-  },
-  {
-    "url": "ErikDavis/index.html",
-    "revision": "644bd2c15feca13f890e27035d4c71cf"
-  },
-  {
-    "url": "HadassahMativesky/index.html",
-    "revision": "9d0a6e693b1c8166378c5a1260da4725"
-  },
-  {
-    "url": "HaydenPayne/index.html",
-    "revision": "518bdbf740452e2516c8f36f8f9ce599"
-  },
-  {
-    "url": "index.html",
-    "revision": "9ad759d7e77a3a4e27f1ad266baab14a"
-  },
-  {
-    "url": "IngoPhilipp/index.html",
-    "revision": "04d29fc9ea25207bac6f8400e9c8c590"
-  },
-  {
-    "url": "JackMaher/index.html",
-    "revision": "c2dc1210847fb5cf61785c8aacc17a5b"
-  },
-  {
-    "url": "JeffMcKenzie/index.html",
-    "revision": "4faa283470748db8d4710bbbeb96377d"
-  },
-  {
-    "url": "JeffVanFleet/index.html",
-    "revision": "ff354603005376ea21503f605d77b3cd"
-  },
-  {
-    "url": "JosephOurs/index.html",
-    "revision": "18d49d1d3da117c9ef2514a005cb2855"
-  },
-  {
-    "url": "JoshuaEastman/index.html",
-    "revision": "083c2983e65494187792e993d9448cd5"
-  },
-  {
-    "url": "logo-192.png",
-    "revision": "af23d950429ffb54e42245904932783f"
-  },
-  {
-    "url": "logo-512.png",
-    "revision": "208031b296f4c82b6b60c0c128871b90"
-  },
-  {
-    "url": "manifest.json",
-    "revision": "20755641f15e99265b0596ec5009f660"
-  },
-  {
-    "url": "MatthewEakin/index.html",
-    "revision": "97ab3928bfbed7952030efcae8eac40c"
-  },
-  {
-    "url": "MelissaTondi/index.html",
-    "revision": "a86a86e3ecd323c0b57b554ea8673b2c"
-  },
-  {
-    "url": "MikeBuening/index.html",
-    "revision": "24a2950dde829365409fba964ca72c89"
-  },
-  {
-    "url": "PatrickPoulin/index.html",
-    "revision": "51d15898fce77b5c56292c827947dd50"
-  },
-  {
-    "url": "PaulMerrill/index.html",
-    "revision": "f7611ae4b84ed21785a2b8e08314eed7"
-  },
-  {
-    "url": "PuneetArya/index.html",
-    "revision": "2f52b39c0e6e796a5e018d5ad2074c58"
-  },
-  {
-    "url": "RajSubramanian/index.html",
-    "revision": "2840b35e6ed012638672d0432e6d2637"
-  },
-  {
-    "url": "RichardDouglass/index.html",
-    "revision": "bbb27a8746cce6363fae62d62eb413c7"
-  },
-  {
-    "url": "SaralaPandey/index.html",
-    "revision": "4453906b7631e070581804840a5fe407"
-  },
-  {
-    "url": "SathishNatarajan/index.html",
-    "revision": "b34543be5f3fe945b1a5986f06253e7b"
-  },
-  {
-    "url": "SethPetry-Johnson/index.html",
-    "revision": "2bc5f5bf9d54fa619fd1eaf6c74558a4"
-  },
-  {
-    "url": "SivakumarAnna/index.html",
-    "revision": "c4046b191d270bd5f18e2de2a2609dba"
-  },
-  {
-    "url": "ThomasHaver/index.html",
-    "revision": "699144f0f3a7e016ab2d57957564c8c9"
-  },
-  {
-    "url": "TimGrant/index.html",
-    "revision": "38349b24b3e6fe554a426355e4f516e2"
+    "url": "assets/manifest/client.json",
+    "revision": "399e189a045ddca3f5c02b1f32d27825"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
