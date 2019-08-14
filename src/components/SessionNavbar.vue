@@ -1,6 +1,6 @@
 <template>
   <v-toolbar flat app dense dark color="primary">
-    <v-btn flat href="/">
+    <v-btn flat href="/" class="text-capitalize">
       <v-icon left small>fas fa-chevron-left</v-icon>Back
     </v-btn>
     <v-spacer></v-spacer>
