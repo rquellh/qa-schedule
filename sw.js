@@ -311,7 +311,7 @@ self.__precacheManifest = [
   },
   {
     "url": "manifest.json",
-    "revision": "978e5f5c6a6aec4a296f48470b970dc7"
+    "revision": "b1dfa7bc7cf0e9c530d751b9e75997ed"
   },
   {
     "url": "MatthewEakin/index.html",
