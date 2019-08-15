@@ -30,6 +30,16 @@ export default {
       favorites
     };
   },
+  //This is to install the service worker. Change the directory if the website changes
+  created() {
+    if (process.isClient) {
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", function() {
+          navigator.serviceWorker.register("/qa-schedule/sw.js");
+        });
+      }
+    }
+  },
   metaInfo() {
     return {
       title: "Schedule"
