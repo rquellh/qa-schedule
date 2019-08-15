@@ -14,7 +14,7 @@
     "lang": "en-US",
     "start_url": "/qa-schedule",
     "display": "standalone",
-    "scope": "/qa-schedule/",
+    "scope": "/qa-schedule",
     "theme_color": "#1b51aa",
     "background_color": "#ffffff"
 }
