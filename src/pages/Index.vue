@@ -1,15 +1,15 @@
 <template>
   <v-app class="white">
-    <Navbar />
+    <Navbar :favorites="favorites" />
     <Layout>
       <v-content>
-        <SessionList :sessions="$page.session1" />
-        <SessionList :sessions="$page.session2" />
-        <SessionList :sessions="$page.session3" />
-        <SessionList :sessions="$page.session4" />
-        <SessionList :sessions="$page.session5" />
-        <SessionList :sessions="$page.session6" />
-        <SessionList :sessions="$page.session7" />
+        <SessionList :sessions="$page.session1" :favorites="favorites"/>
+        <SessionList :sessions="$page.session2" :favorites="favorites"/>
+        <SessionList :sessions="$page.session3" :favorites="favorites"/>
+        <SessionList :sessions="$page.session4" :favorites="favorites"/>
+        <SessionList :sessions="$page.session5" :favorites="favorites"/>
+        <SessionList :sessions="$page.session6" :favorites="favorites"/>
+        <SessionList :sessions="$page.session7" :favorites="favorites"/>
       </v-content>
     </Layout>
   </v-app>
@@ -38,6 +38,23 @@ export default {
           navigator.serviceWorker.register("/qa-schedule/sw.js");
         });
       }
+    }
+  },
+  //This is checking if there is any information in local storage and saving to favorites
+  mounted() {
+    if (localStorage.favorites) {
+      console.log("mounted");
+      this.favorites = JSON.parse(localStorage.favorites);
+    }
+  },
+  //This is watching for changes in favorites and saving them to local storage
+  watch: {
+    favorites: {
+      handler() {
+        console.log("favorites changed");
+        localStorage.setItem("favorites", JSON.stringify(this.favorites));
+      },
+      deep: true
     }
   },
   metaInfo() {

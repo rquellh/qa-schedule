@@ -37,8 +37,25 @@ export default {
         .indexOf(speakerName);
       return indexPos;
     },
-    goback:function(){
-      window.history.go(-1)
+    goback: function() {
+      window.history.go(-1);
+    }
+  },
+  //This is checking if there is any information in local storage and saving to favorites
+  mounted() {
+    if (localStorage.favorites) {
+      console.log("mounted");
+      this.favorites = JSON.parse(localStorage.favorites);
+    }
+  },
+  //This is watching for changes in favorites and saving them to local storage
+  watch: {
+    favorites: {
+      handler() {
+        console.log("favorites changed");
+        localStorage.setItem("favorites", JSON.stringify(this.favorites));
+      },
+      deep: true
     }
   }
 };

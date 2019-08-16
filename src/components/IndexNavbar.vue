@@ -3,7 +3,6 @@
     <v-avatar size="25">
       <img :src="require('@/assets/images/header.png')" />
     </v-avatar>
-
     <div class="pl-3">QA or the Highway</div>
     <v-spacer></v-spacer>
     <v-btn flat @click="favorites.filterall = !favorites.filterall">
@@ -20,15 +19,10 @@
 </template>
 
 
-<script>
-import favorites from "@/data/favorites.json";
+<script>;
 
 export default {
-  data() {
-    return {
-      favorites
-    };
-  }
+  props: ["favorites"]
 };
 </script>
 

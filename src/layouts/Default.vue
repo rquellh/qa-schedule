@@ -19,6 +19,11 @@ import Footer from "@/components/Footer";
 export default {
   components: {
     Footer
+  },
+  data(){
+    return {
+      state: 'false'
+    }
   }
 };
 </script>

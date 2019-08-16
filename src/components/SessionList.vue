@@ -5,14 +5,11 @@
         <v-list two-line>
           <v-subheader class="title font-weight-bold pa-0">{{sessions.edges[0].node.time}}</v-subheader>
           <div
-            v-show="favorites.sessions[indexOf(session.node.speaker)].saved || !(favorites.filterall)"
+            v-show="favorites.sessions[indexOf(session.node.speaker)].saved || !favorites.filterall"
             v-for="(session, index) in sessions.edges"
             :key="index"
           >
-            <v-list-tile
-              :class="timeFiltered"
-              :href="`./${removeSpaces(session.node.speaker)}`"
-            >
+            <v-list-tile :class="timeFiltered" :href="`./${removeSpaces(session.node.speaker)}`">
               <v-list-tile-content>
                 <v-list-tile-title>{{session.node.title}}</v-list-tile-title>
                 <v-list-tile-sub-title>
@@ -55,19 +52,20 @@
 
 
 <script>
-import favorites from "@/data/favorites.json";
-
 export default {
-  props: ["sessions"],
+  props: ["sessions", "favorites"],
   data: function() {
     return {
-      favorites,
-      timeFiltered: `t${this.sessions.edges[0].node.time.replace(/:|-| /g, "")}`
+      timeFiltered: `t${this.sessions.edges[0].node.time.replace(
+        /:|-| /g,
+        ""
+      )}`,
+      filter: false
     };
   },
   methods: {
     indexOf: function(speakerName) {
-      var indexPos = this.favorites.sessions
+      var indexPos = this.$props.favorites.sessions
         .map(function(instance) {
           return instance.speaker;
         })
