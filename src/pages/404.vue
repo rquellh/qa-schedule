@@ -55,8 +55,8 @@ export default {
   position: relative;
   background: linear-gradient(
     330deg,
-    var(--v-primary-base),
-    var(--v-secondary-base)
+    #1b51aa,
+    #EC1F27
   );
   background-size: 150% 150%;
 

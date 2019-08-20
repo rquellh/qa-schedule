@@ -1,5 +1,5 @@
 <template>
-  <v-toolbar flat app dense dark color="primary">
+  <v-toolbar flat app dense dark color="#1b51aa">
     <v-avatar size="25">
       <img :src="require('@/assets/images/header.png')" alt="QA or the Highway logo"/>
     </v-avatar>

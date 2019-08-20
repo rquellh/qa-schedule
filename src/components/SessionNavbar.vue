@@ -1,5 +1,5 @@
 <template>
-  <v-toolbar flat app dense dark color="primary">
+  <v-toolbar flat app dense dark color="#1b51aa">
     <v-btn flat @click="goback()" class="text-capitalize">
       <v-icon left small>$vuetify.icons.chevron-left</v-icon>Back
     </v-btn>

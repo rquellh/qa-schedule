@@ -9,15 +9,15 @@
       <v-layout align-center>
         <div class="headline font-weight-bold">{{ speaker }}</div>
         <v-spacer />
-        <v-btn flat icon color="primary" :href="linkUrl" :title="`${speaker} LinkedIn`">
+        <v-btn flat icon color="#1b51aa" :href="linkUrl" :title="`${speaker} LinkedIn`">
           <v-icon>
             $vuetify.icons.linkedin
           </v-icon>
         </v-btn>
-        <v-btn flat icon color="primary" :href="twitUrl" :title="`${speaker} Twitter`">
+        <v-btn flat icon color="#1b51aa" :href="twitUrl" :title="`${speaker} Twitter`">
           <v-icon class="custom-icon">$vuetify.icons.twitter</v-icon>
         </v-btn>
-        <v-btn flat icon color="primary" :href="webUrl" :title="`${speaker} Website`">
+        <v-btn flat icon color="#1b51aa" :href="webUrl" :title="`${speaker} Website`">
           <v-icon>$vuetify.icons.laptop</v-icon>
         </v-btn>
       </v-layout>

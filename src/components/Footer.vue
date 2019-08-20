@@ -1,5 +1,5 @@
 <template>
-  <v-footer absolute app height="auto" dark color="primary">
+  <v-footer absolute app height="auto" dark color="#1b51aa">
     <div class="ml-3 caption">Created by Ryan Quellhorst</div>
     <v-spacer />
     <v-btn

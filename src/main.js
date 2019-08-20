@@ -23,11 +23,7 @@ export default function (Vue, { router, head, isClient }) {
 
   //Setup Vuetify
   Vue.use(Vuetify, {
-    theme: {
-      primary: '#1b51aa',
-      secondary: '#df2e30',
-      accent: '#6aaece'
-    },
+    theme: false,
     options: {
       customProperties: true
     },
