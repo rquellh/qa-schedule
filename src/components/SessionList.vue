@@ -2,7 +2,7 @@
   <v-container py-0 fluid>
     <v-layout row wrap fluid>
       <v-flex>
-        <v-list two-line>
+        <v-list three-line>
           <v-subheader class="title font-weight-bold pa-0">{{sessions.edges[0].node.time}}</v-subheader>
           <div
             v-show="favorites.sessions[indexOf(session.node.speaker)].saved || !favorites.filterall"
