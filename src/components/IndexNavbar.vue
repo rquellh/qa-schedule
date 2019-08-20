@@ -1,7 +1,7 @@
 <template>
   <v-toolbar flat app dense dark color="primary">
     <v-avatar size="25">
-      <img :src="require('@/assets/images/header.png')" />
+      <img :src="require('@/assets/images/header.png')" alt="QA or the Highway logo"/>
     </v-avatar>
     <div class="pl-3">QA or the Highway</div>
     <v-spacer></v-spacer>

@@ -31,6 +31,7 @@
                 <v-btn
                   icon
                   ripple
+                  :title="`${session.node.speaker} Like Button`"
                   @click.prevent.stop="favorites.sessions[indexOf(session.node.speaker)].saved = !favorites.sessions[indexOf(session.node.speaker)].saved"
                 >
                   <v-icon

@@ -7,6 +7,8 @@
       :key="index"
       class="mx-3"
       :href="site.url"
+      :title="site.title"
+      rel="noreferrer"
       dark
       icon
       target="_blank"
@@ -23,14 +25,20 @@ export default {
       social: [
         {
           icon: "$vuetify.icons.linkedin",
-          url: "https://www.linkedin.com/in/ryanquellhorst/"
+          url: "https://www.linkedin.com/in/ryanquellhorst/",
+          title: "Ryan Quellhorst LinkedIn"
         },
-        { icon: "$vuetify.icons.github", url: "https://github.com/rquellh" },
+        {
+          icon: "$vuetify.icons.github",
+          url: "https://github.com/rquellh",
+          title: "Ryan Quellhorst Github"
+        },
         {
           icon: "$vuetify.icons.bug",
           url:
-            "https://github.com/rquellh/qa-schedule/issues/new?assignees=&labels=&template=bug_report.md&title="
-        },
+            "https://github.com/rquellh/qa-schedule/issues/new?assignees=&labels=&template=bug_report.md&title=",
+          title: "Issue Report"
+        }
       ]
     };
   }
