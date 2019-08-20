@@ -4,14 +4,17 @@
 import Vuetify from 'vuetify'
 import DefaultLayout from '~/layouts/Default.vue'
 import 'vuetify/dist/vuetify.min.css'
+import LinkedIn from "@/components/icons/LinkedIn";
+import Bug from "@/components/icons/Bug"
+import CircleSolid from "@/components/icons/CircleSolid"
+import Github from "@/components/icons/Github"
+import Laptop from "@/components/icons/Laptop"
+import StarOutline from "@/components/icons/StarOutline"
+import StarSolid from "@/components/icons/StarSolid"
+import Twitter from "@/components/icons/Twitter"
+import ChevronLeft from "@/components/icons/ChevronLeft"
 
 export default function (Vue, { router, head, isClient }) {
-  // Setup fontawesome
-  head.link.push({
-    rel: 'stylesheet',
-    href: 'https://use.fontawesome.com/releases/v5.8.2/css/all.css'
-  })
-
   // Setup manifest for PWA
   head.link.push({
     rel: 'manifest',
@@ -28,7 +31,38 @@ export default function (Vue, { router, head, isClient }) {
     options: {
       customProperties: true
     },
-    iconfont: 'fa4'
+    icons: {
+      'linkedin':{
+        component: LinkedIn
+      },
+      'bug':{
+        component: Bug
+      },
+      'circle-solid':{
+        component: CircleSolid
+      },
+      'github':{
+        component: Github
+      },
+      'laptop':{
+        component: Laptop
+      },
+      'star-outline':{
+        component: StarOutline
+      },
+      'star-solid':{
+        component: StarSolid
+      },
+      'twitter':{
+        component: Twitter
+      },
+      'linkedin':{
+        component: LinkedIn
+      },
+      'chevron-left':{
+        component: ChevronLeft
+      }
+    }
   })
   
   // Set default layout as a global component

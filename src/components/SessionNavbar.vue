@@ -1,7 +1,7 @@
 <template>
   <v-toolbar flat app dense dark color="primary">
     <v-btn flat @click="goback()" class="text-capitalize">
-      <v-icon left small>fas fa-chevron-left</v-icon>Back
+      <v-icon left small>$vuetify.icons.chevron-left</v-icon>Back
     </v-btn>
     <v-spacer></v-spacer>
     <v-btn
@@ -9,10 +9,10 @@
       @click="favorites.sessions[indexOf(speaker)].saved = !favorites.sessions[indexOf(speaker)].saved"
     >
       <div v-if="favorites.sessions[indexOf(speaker)].saved" class="text-capitalize">
-        <v-icon left small color="amber">fas fa-star</v-icon>Saved
+        <v-icon left small color="amber">$vuetify.icons.star-solid</v-icon>Saved
       </div>
       <div v-else class="text-capitalize">
-        <v-icon left small>far fa-star</v-icon>Save
+        <v-icon left small>$vuetify.icons.star-outline</v-icon>Save
       </div>
     </v-btn>
   </v-toolbar>

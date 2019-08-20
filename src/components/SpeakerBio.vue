@@ -10,13 +10,15 @@
         <div class="headline font-weight-bold">{{ speaker }}</div>
         <v-spacer />
         <v-btn flat icon color="primary" :href="linkUrl">
-          <v-icon>fab fa-linkedin</v-icon>
+          <v-icon>
+            $vuetify.icons.linkedin
+          </v-icon>
         </v-btn>
         <v-btn flat icon color="primary" :href="twitUrl">
-          <v-icon>fab fa-twitter</v-icon>
+          <v-icon class="custom-icon">$vuetify.icons.twitter</v-icon>
         </v-btn>
         <v-btn flat icon color="primary" :href="webUrl">
-          <v-icon>fas fa-laptop</v-icon>
+          <v-icon>$vuetify.icons.laptop</v-icon>
         </v-btn>
       </v-layout>
 

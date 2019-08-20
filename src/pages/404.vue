@@ -27,7 +27,7 @@
                   href="https://github.com/rquellh/qaorthehighway-gridsome/issues/new?assignees=&labels=&template=bug_report.md&title="
                   target="_blank"
                 >
-                  <v-icon class="pr-4">fas fa-bug</v-icon>Report issue
+                  <v-icon class="pr-4">$vuetify.icons.bug</v-icon>Report issue
                 </v-btn>
               </div>
             </v-flex>

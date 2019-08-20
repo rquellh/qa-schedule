@@ -1,9 +1,7 @@
 <template>
   <v-footer absolute app height="auto" dark color="primary">
-    <div class="ml-3 caption">
-      Created by Ryan Quellhorst
-    </div>
-    <v-spacer/>
+    <div class="ml-3 caption">Created by Ryan Quellhorst</div>
+    <v-spacer />
     <v-btn
       v-for="(site, index) in social"
       :key="index"
@@ -23,12 +21,15 @@ export default {
   data() {
     return {
       social: [
-        { icon: "fab fa-github", url: "https://github.com/rquellh" },
-        { icon: "fas fa-bug", url: "https://github.com/rquellh/qa-schedule/issues/new?assignees=&labels=&template=bug_report.md&title=" },
         {
-          icon: "fab fa-linkedin",
+          icon: "$vuetify.icons.linkedin",
+          url: "https://www.linkedin.com/in/ryanquellhorst/"
+        },
+        { icon: "$vuetify.icons.github", url: "https://github.com/rquellh" },
+        {
+          icon: "$vuetify.icons.bug",
           url:
-            "https://www.linkedin.com/in/ryanquellhorst/"
+            "https://github.com/rquellh/qa-schedule/issues/new?assignees=&labels=&template=bug_report.md&title="
         },
       ]
     };

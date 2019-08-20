@@ -8,11 +8,11 @@
     <v-btn flat @click="favorites.filterall = !favorites.filterall">
       <div v-if="favorites.filterall" class="text-capitalize">
         Filtered
-        <v-icon right small color="amber">fas fa-star</v-icon>
+        <v-icon right small color="amber">$vuetify.icons.star-solid</v-icon>
       </div>
       <div v-else class="text-capitalize">
         Filter
-        <v-icon right small>far fa-star</v-icon>
+        <v-icon right small>$vuetify.icons.star-outline</v-icon>
       </div>
     </v-btn>
   </v-toolbar>

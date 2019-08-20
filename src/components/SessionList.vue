@@ -21,7 +21,7 @@
                       >& {{session.node.speaker2}}</span>
                     </v-flex>
                     <v-flex xs12 sm6>
-                      <v-icon :class="[roomFiltered([index]), 'small-icon']">fas fa-circle</v-icon>
+                      <v-icon small :class="roomFiltered([index])">$vuetify.icons.circle-solid</v-icon>
                       {{session.node.room}}
                     </v-flex>
                   </v-layout>
@@ -37,8 +37,8 @@
                     v-if="favorites.sessions[indexOf(session.node.speaker)].saved"
                     small
                     color="amber"
-                  >fas fa-star</v-icon>
-                  <v-icon v-else small color="grey">far fa-star</v-icon>
+                  >$vuetify.icons.star-solid</v-icon>
+                  <v-icon v-else small color="grey">$vuetify.icons.star-outline</v-icon>
                 </v-btn>
               </v-list-tile-action>
             </v-list-tile>
