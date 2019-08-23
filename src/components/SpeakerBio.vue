@@ -18,7 +18,7 @@
           <v-icon class="custom-icon">$vuetify.icons.twitter</v-icon>
         </v-btn>
         <v-btn flat icon color="#1b51aa" :href="webUrl" :title="`${speaker} Website`">
-          <v-icon>$vuetify.icons.laptop</v-icon>
+          <v-icon>$vuetify.icons.website</v-icon>
         </v-btn>
       </v-layout>
 

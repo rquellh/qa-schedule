@@ -8,7 +8,7 @@ import LinkedIn from "@/components/icons/LinkedIn";
 import Bug from "@/components/icons/Bug"
 import CircleSolid from "@/components/icons/CircleSolid"
 import Github from "@/components/icons/Github"
-import Laptop from "@/components/icons/Laptop"
+import Website from "@/components/icons/Website"
 import StarOutline from "@/components/icons/StarOutline"
 import StarSolid from "@/components/icons/StarSolid"
 import Twitter from "@/components/icons/Twitter"
@@ -40,8 +40,8 @@ export default function (Vue, { router, head, isClient }) {
       'github':{
         component: Github
       },
-      'laptop':{
-        component: Laptop
+      'website':{
+        component: Website
       },
       'star-outline':{
         component: StarOutline
