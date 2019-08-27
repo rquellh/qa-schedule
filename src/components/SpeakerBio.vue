@@ -1,11 +1,11 @@
 <template>
   <v-layout ma-0 pa-0 row wrap>
-    <v-flex xs12 sm4 pa-3 justify-center align-center layout>
+    <v-flex xs12 md4 pa-3 justify-center align-center layout>
       <v-avatar size="300">
         <img :src="require('@/assets/images/generic-profile.png')" :alt="speaker"/>
       </v-avatar>
     </v-flex>
-    <v-flex xs12 sm8 pa-3>
+    <v-flex xs12 md8 pa-3>
       <v-layout align-center>
         <div class="headline font-weight-bold">{{ speaker }}</div>
         <v-spacer />
