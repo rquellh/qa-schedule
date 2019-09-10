@@ -1,6 +1,6 @@
 <template>
   <v-app class="white">
-    <Navbar :favorites="favorites" />
+    <IndexNavbar :favorites="favorites" />
     <Layout>
       <v-content>
         <SessionList :sessions="$page.session1" :favorites="favorites"/>
@@ -17,13 +17,13 @@
 
 <script>
 import SessionList from "@/components/SessionList";
-import Navbar from "@/components/IndexNavbar";
+import IndexNavbar from "@/components/IndexNavbar";
 import favorites from "@/data/favorites.json";
 
 export default {
   components: {
     SessionList,
-    Navbar
+    IndexNavbar
   },
   data: function() {
     return {
