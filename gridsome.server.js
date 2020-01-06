@@ -42,6 +42,12 @@ module.exports = function (api) {
           abstract: session.abstract,
           time: session.time,
           room: session.room,
+          website: session.website,
+          twitter: session.twitter,
+          linkedin: session.linkedin,
+          website2: session.website2,
+          linkedin2: session.linkedin2,
+          twitter2: session.twitter2
         }
       })
     })

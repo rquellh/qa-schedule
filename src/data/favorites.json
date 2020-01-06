@@ -2,63 +2,39 @@
     "filterall": false,
     "sessions": [
         {
-            "speaker": "Ingo Philipp",
-            "saved": false
-        },
-        {
-            "speaker": "Joseph Ours",
-            "saved": false
-        },
-        {
-            "speaker": "Sivakumar Anna",
-            "saved": false
-        },
-        {
-            "speaker": "Puneet Arya",
-            "saved": false
-        },
-        {
-            "speaker": "Brian Bayer",
-            "saved": false
-        },
-        {
-            "speaker": "Mike Buening",
-            "saved": false
-        },
-        {
-            "speaker": "Brendan Connolly",
-            "saved": false
-        },
-        {
-            "speaker": "Erik Davis",
-            "saved": false
-        },
-        {
-            "speaker": "Richard Douglass",
-            "saved": false
-        },
-        {
-            "speaker": "Matthew Eakin",
-            "saved": false
-        },
-        {
-            "speaker": "Joshua Eastman",
-            "saved": false
-        },
-        {
-            "speaker": "Tim Grant",
-            "saved": false
-        },
-        {
-            "speaker": "Thomas Haver",
-            "saved": false
-        },
-        {
-            "speaker": "Anna Heiermann",
-            "saved": false
-        },
-        {
             "speaker": "Anne Hungate",
+            "saved": false
+        },
+        {
+            "speaker": "Paul Grizzaffi",
+            "saved": false
+        },
+        {
+            "speaker": "Alan Koch",
+            "saved": false
+        },
+        {
+            "speaker": "Anita Uppalapati",
+            "saved": false
+        },
+        {
+            "speaker": "Andrew Griffin",
+            "saved": false
+        },
+        {
+            "speaker": "Annie Bhaumik",
+            "saved": false
+        },
+        {
+            "speaker": "David Laulusa",
+            "saved": false
+        },
+        {
+            "speaker": "Deepika Achary",
+            "saved": false
+        },
+        {
+            "speaker": "Dennis Colburn",
             "saved": false
         },
         {
@@ -66,39 +42,55 @@
             "saved": false
         },
         {
-            "speaker": "Jack Maher",
+            "speaker": "Ford Arnett",
             "saved": false
         },
         {
-            "speaker": "Hadassah Mativesky",
+            "speaker": "Jeff Van Fleet",
             "saved": false
         },
         {
-            "speaker": "Jeff McKenzie",
+            "speaker": "Jenna Davis",
             "saved": false
         },
         {
-            "speaker": "Andy Melichar",
+            "speaker": "Jennifer Bonine",
             "saved": false
         },
         {
-            "speaker": "Paul Merrill",
+            "speaker": "Jerren Every",
             "saved": false
         },
         {
-            "speaker": "Sathish Natarajan",
+            "speaker": "Jess Lancaster",
             "saved": false
         },
         {
-            "speaker": "Sarala Pandey",
+            "speaker": "Joel Montvelisky",
             "saved": false
         },
         {
-            "speaker": "Hayden Payne",
+            "speaker": "Josh Grant",
             "saved": false
         },
         {
-            "speaker": "Seth Petry-Johnson",
+            "speaker": "Joshua Russell",
+            "saved": false
+        },
+        {
+            "speaker": "Kelsey Shannahan",
+            "saved": false
+        },
+        {
+            "speaker": "Kenny Gilles",
+            "saved": false
+        },
+        {
+            "speaker": "Max Saperstone",
+            "saved": false
+        },
+        {
+            "speaker": "Mohamed Maktoum Yoosuf",
             "saved": false
         },
         {
@@ -106,27 +98,27 @@
             "saved": false
         },
         {
-            "speaker": "Akshita Puram",
+            "speaker": "Raj Subrameyer",
             "saved": false
         },
         {
-            "speaker": "Dave Sadlon",
+            "speaker": "Richard Strang",
             "saved": false
         },
         {
-            "speaker": "Donavan Stanley",
+            "speaker": "Richard Douglass",
             "saved": false
         },
         {
-            "speaker": "Raj Subramanian",
+            "speaker": "Robert Fornal",
             "saved": false
         },
         {
-            "speaker": "Melissa Tondi",
+            "speaker": "Ryan Quellhorst",
             "saved": false
         },
         {
-            "speaker": "Jeff Van Fleet",
+            "speaker": "Thomas Haver",
             "saved": false
         }
     ]
