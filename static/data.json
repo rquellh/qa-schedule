@@ -304,7 +304,7 @@
         },
         {
             "speaker": "Robert Fornal",
-            "bio": "Dave Sadlon, Director of Testing Services at HMB, has been working for 10 years in the technology industry while wearing multiple hats (not just for his bald head).  Lately he can be found building out test automation suites and testing strategies for clients. His true passion, though, is helping others grow and mature in their careers. When not at work, Dave is spending time with his wife Leah typically hiking or diving into the fine art of home improvement fixes (typically things he broke).",
+            "bio": "Husband, father, and ... programmer (senior developer). My focus is on front-end development: JavaScript, CSS, SVG, AngularJS and Angular, React, Ionic\n\n\"Learning from my mistakes over the decades, I feel that I have become a solid programmer.\" -- Me",
             "title": "A Lifecycle Of Code Under Test",
             "abstract": "When thinking about tests against code, have you \"done enough?\" How do you know that the code is covered appropriately, that odd bugs aren't going to crop up? Did you cover all the use cases and what if someone changes the code down-the-road?\n\nThis session is about the unit and integration tests that a developer writes to test their code immediately, not about higher level tests that are written by a QA individual or department.\n\nThis session will examine the code and tests holistically against the various lifecycle stages of code and how the testing needs to adjust:\n\u2022 Define Inputs and Outputs\n\u2022 Write Initial Test Coverage\n\u2022 Handling Bug Coverage\n\u2022 Refactoring\n\u2022 Abstraction\n\u2022 Future Work (how are tests affected?)",
             "time": "3:05 - 4:05",
@@ -316,7 +316,7 @@
         },
         {
             "speaker": "Ryan Quellhorst",
-            "bio": "Ryan Quellhorst has been leading test teams and testing software for the last 5+ years. He is a Senior Consultant at HMB where he works with clients to advance their software delivery strategy and deliver continuously improving solutions. Outside of the office, he loves spending time with his wife and kids, traveling, running, golfing, and rocking out in the car to 90s music.\n\nHe also created the app that you are using right now.",
+            "bio": "Ryan Quellhorst has been leading test teams and testing software for the last 5+ years. He is a BA/QA at Deep Lens where he's working on solutions that identify cancer patients for clinical trials. Outside of the office, he loves spending time with his wife and kids, traveling, running, golfing, and rocking out in the car to 90s music.\n\nHe also created the app that you are using right now.",
             "title": "Automating the Unknown - A journey of automating external applications",
             "abstract": "2 years ago my son started attending daycare, and I started using the daycare’s app that would let me see videos and pictures of my son. Over those two years they’ve amassed over 1,000 photos of my son. To download all of these pictures manually would take me hours on hours of time; not to mention he still has 4 more years of daycare and my daughter has started attending this year. I knew there had to be a better way.\n\nFollow me on my automation journey as I show you some tips, tricks, and stumbling blocks that I uncovered while trying to preserve my children’s memories.",
             "time": "12:45 - 1:45",
