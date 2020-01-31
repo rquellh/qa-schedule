@@ -151,16 +151,16 @@
             "twitter": "https://twitter.com/jennaljeffery"
         },
         {
-            "speaker": "Jennifer Bonine",
-            "bio": "Jennifer Bonine is a well-known speaker, teacher, and trainer at both national and international conferences. She has keynoted numerous Testing, Agile, and Development conferences. Jennifer’s belief is that we should do what we are passionate about and believes in living your passion. To this end, Jennifer co-founded and is the CEO of Pink Lion AI: a breakout AI company that brings AI to the world’s app teams and delivers AI integration with a human engagement model while educating teams on solving challenges with an AI-first strategy. Jennifer is the first female AI testing tech CEO and is currently collaborating in the entertainment, gaming, media and professional sports industries with Test.AI. As Test.AI’s partner PinkLion is solving testing challenges using AI that have been unsolvable with more traditional automation testing. Jennifer has held executive-level positions leading development and quality engineering teams for Fortune 100 companies in several Industries. In a recent engagement Jennifer served as a strategy executive and in corporate marketing for the C-suite.",
+            "speaker": "Andrew Birkholz",
+            "bio": "Andrew is known for solving problems & challenges that no one has been able to resolve. He is a multi-dimensional, technology executive who love’s experimenting with the latest technology and creating software products that help people and companies. Andrew has experience speaking on stages across the United States and is very well respected in the space. He has consulted with hundreds of enterprises over the last 15 years from start-ups to the Fortune 500 companies and helped his clients implement test automation solutions on almost every platform you can think of including: TV's, cars, ships, game consoles, mobile phones, medical devices, multiple mobile applications, software and more. Using that experience, Andrew is now the Chief Technology Officer and Co-founded PinkLion.AI to introduce AI to app teams and help people utilize Artificial Intelligence in a way the benefits their day-to-day job.",
             "title": "Re-Shaping The Test Pyramid",
-            "abstract": "In this session Jennifer Bonine will explore new shifts in testing paradigms. Demonstrate an AI first testing method that integrates with your current manual and automation testing, and understand AI that aids your app teams. Re-think where you want to spend time and money in your testing team in a challenge that plagues most companies of too much to test and too little time.\n\nThis will re-position the testing and quality organizations to not be the last part of what happens, but to providing valuable insights and actionable data for your C-Suite to drive business decisions.\n\nKey Takeaways:\n1. Ideas to reshape your test strategies\n2. An understanding of AI solutioning and where to begin implementing\n3. Analysis of available tooling options in the AI space. (Vendor agnostic)",
-            "time": "1:55 - 2:55",
-            "room": "Cartoon Room",
+            "abstract": "In this session Andrew Birkholz will explore new shifts in testing paradigms. Demonstrate an AI first testing method that integrates with your current manual and automation testing, and understand AI that aids your app teams. Re-think where you want to spend time and money in your testing team in a challenge that plagues most companies of too much to test and too little time.\n\nThis will re-position the testing and quality organizations to not be the last part of what happens, but to providing valuable insights and actionable data for your C-Suite to drive business decisions.\n\nKey Takeaways:\n1. Ideas to reshape your test strategies\n2. An understanding of AI solutioning and where to begin implementing\n3. Analysis of available tooling options in the AI space. (Vendor agnostic)",
+            "time": "3:05 - 4:05",
+            "room": "West Ballroom",
             "picture": "",
             "website": "https://www.pinklion.ai",
-            "linkedin": "https://www.linkedin.com/in/jennifer-bonine-76552b2",
-            "twitter": "https://twitter.com/Jennifer_Bonine"
+            "linkedin": "https://www.linkedin.com/in/andrewbirkholz",
+            "twitter": "https://twitter.com/abirky"
         },
         {
             "speaker": "Jerren Every",
@@ -259,14 +259,17 @@
         },
         {
             "speaker": "Patrick Poulin",
+            "speaker2": "Sangit Patel",
             "bio": "Patrick started his tech career on mobile, and soon was managing the retail vertical for a company building the first mobile websites for over 75 major brands such as Tesco, Target, Macys, and MAC Cosmetics. After a (thankfully) short stint in adtech, he became the API Evangelist for Getty Images. This is where he first recognized the lack of good API tools. That experience is what led to the creation of API Fortress with his cofounder.",
+            "bio2":"Sangit Patel is an engineer by trade, but after some time in the adtech industry he saw an opportunity to shift towards a more client facing role. In doing so, he realized his passion for bridging the technical side with the business side. That has brought him where he is today - as Sales Engineer with API Fortress, Sangit works with clients and business partners to improve their API testing and explore all that API Fortress can provide.\n\nSangit is an avid traveler and seeks to check off only 2 more continents from his travel list. He's also had a lifelong passion for music and enjoys playing clarinet and viola in his free time. ",
             "title": "Evolving API Testing into API Monitoring",
             "abstract": "Today many companies are switching to CI/CD & agile workflows, with the goal of continuously making releases. That aim for continuous integration and deployments is now pushing closer to constant. Learn pointers and tricks from companies with large and successful internal API programs.\n\nLearn...\nHow to write a smarter test.\nHow to use dynamic data to improve test coverage.\nCommon mistakes made when creating functional tests.\nHow to leverage any test into a functional uptime monitor.",
             "time": "3:05 - 4:05",
             "room": "Cartoon Room",
             "picture": "",
             "website": "https://apifortress.com",
-            "linkedin": "https://www.linkedin.com/in/patrickrpoulin"
+            "linkedin": "https://www.linkedin.com/in/patrickrpoulin",
+            "website2": "https://apifortress.com"
         },
         {
             "speaker": "Raj Subrameyer",
@@ -285,8 +288,8 @@
             "bio": "Richard Strang has 25 years of software quality assurance experience. He considers himself a professional tester. Starting in the test automation tools space immediately after university graduation, he has worked with a broad array of organizations as a tester, QA Manager, QA Architect, QA Process Specialist, & QA Guild Leader. Richard has been CSTE certified since 2011. While he thinks he has something valuable to share, he also looks forward to learning much more from the other presenters and attendees.",
             "title": "Overcoming Cognitive Dissonance: How to Effectively Deliver Unbelievable Test Results",
             "abstract": "Cognitive Dissonance is the mental discomfort experienced by a person who attempts to hold two or more contradictory beliefs, ideas, or values. As testers, we are often in the position of inducing cognitive dissonance in our stakeholders when we present them with evidence that their system is not ready for production, when they were confident that everything was on track and going well. So how can we present \"unbelievable\" test results in a way that will not only convince our audience but also spur them to take the steps required to bring their project back to a \"believable\" state? In this presentation, Richard will explore several techniques for presenting test results that will educate and enlighten the recipients, without any danger of causing mental distress.",
-            "time": "9:15 - 10:15",
-            "room": "Great Hall 1 & 2",
+            "time": "",
+            "room": "",
             "picture": "",
             "linkedin": "https://www.linkedin.com/in/richardstrang",
             "twitter": "https://twitter.com/richardstrang1"
@@ -337,36 +340,32 @@
         },
         {
             "speaker": "Brian Brady",
-            "bio": "",
-            "title": "",
-            "abstract": "",
+            "bio": "Brian is a test automation specialist a mabl. A technology enthusiast - interested in open source, DevOps, and microservices. Brian loves history, guitar, and exploring the city of Boston in his free time.",
+            "title": "The Era of Intelligent Testing: How Machine Intelligence is Shaping Future of QA",
+            "abstract": "Traditional testing isn't keeping pace with the speed of DevOps and Continuous Delivery, but hope is not lost; AI will be used to make testing faster and more accessible to all.\n\nExisting QA solutions were built for a world where software changed infrequently. Highly adopted tools such as Selenium, Appium, and JUnit require a specialized skillset, and require too much maintenance once you start factoring in the brittle nature of tests, and the infrastructure required to run tests at scale. But there is still hope for QA in machine intelligence. Next-generation ML tools are here to help QA keep up with the agility of modern software delivery practices. You'll learn what ML strategies are being employed to make this possible, and what the future of QA - intelligent testing - looks like.\n\nTakeaways:\n\u2022An overview of the QA tooling and vendor landscape\n\u2022Demystifying the buzzwords - what machine intelligence in testing means today and tomorrow\n\u2022How implementing DevTestOps can help increase test coverage and improve product quality",
             "time": "1:55 - 2:55",
             "room": "Great Hall 3",
-            "picture": "",
-            "linkedin": "",
-            "twitter": ""
+            "website":"https://www.mabl.com/"
         },
         {
             "speaker": "TBD",
-            "bio": "Speaker bio will be updated once announced",
-            "title": "Speaker title will be updated once announced",
+            "bio": "TBD",
+            "title": "TBD",
             "abstract": "TBD",
             "time": "3:05 - 4:05",
-            "room": "Great Hall 3",
-            "picture": "",
-            "linkedin": "",
-            "twitter": ""
+            "room": "Great Hall 3"
         },
         {
             "speaker": "Shiva Agolla",
-            "bio": "Speaker bio will be updated once announced",
-            "title": "Speaker title will be updated once announced",
-            "abstract": "TBD",
+            "speaker2": "Mike Buening",
+            "bio": "Shiva has lead large Digital Transformation, Automation and Quality Engineering, developed and implemented Quality methodologies, embedding Cognitive QA into the solutions and built and led diversified teams. At Sogeti, he enables clients gain efficiencies in their quality practices while increasing the overall quality of the product through increased automation with agility. He provides forward thinking leadership to large teams, guides the vision, plan, and implementation of quality engineering programs for enterprises and clients across the State as well Nationally. Shiva lives in Columbus.",
+            "bio2": "Mike is a Director in the Digital Assurance & Quality Engineering practice with Sogeti. He has over 22 years’ experience in IT serving a variety of roles including business analyst, test lead, project manager, QA manager, program manager, and department head responsible for development, testing, and operations of information systems to a global audience. His experience includes working with chemical information systems, patent information systems, search engine development, non-profit business, and public utilities. He lives in central Ohio with his wife, three kids, and two dogs.",
+            "title": "New rules for smarter and faster testing",
+            "abstract": "The World Quality Report is the only global report analyzing software testing and quality engineering trends. It presents an analysis of developments in agile and DevOps, artificial intelligence, automation, test environments, data, security and budgets, showing once again the importance of quality, and of the measures that are put in place to maintain it with sector focus. The 11th Edition of this report captures insight from interviews with 1,725 CIOs and senior technology leaders from 32 countries and 10 industries.\n\nPresentation:\n\u2022Artificial Intelligence can make testing smarter – but broader QA skills are needed\n\u2022Test automation cannot keep pace with the demand for rapid development\n\nPanel:\n\u2022Elite local panel discussion on the trends that are more pertinent for us here in Central Ohio\n\nLink to The World Quality Report https://www.sogeti.com/explore/reports/world-quality-report-2019/",
             "time": "10:30 - 11:30",
             "room": "Interfaith Room",
-            "picture": "",
-            "linkedin": "",
-            "twitter": ""
+            "linkedin": "https://www.linkedin.com/in/shivaagolla",
+            "linkedin2": "https://www.linkedin.com/in/mikebuening"
         }
     ]
 }
