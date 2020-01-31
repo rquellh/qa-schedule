@@ -2,10 +2,7 @@
   <v-layout ma-0 pa-0 row wrap>
     <v-flex xs12 md4 pa-3 justify-center align-center layout>
       <v-avatar size="300">
-        <img
-          :src="findImage()"
-          :alt="speaker"
-        />
+        <img :src="findImage()" :alt="speaker" />
       </v-avatar>
     </v-flex>
     <v-flex xs12 md8 pa-3>
@@ -52,16 +49,22 @@
 </template>
 
 <script>
+import { WebpMachine } from "webp-hero";
+
 export default {
   props: ["speaker", "bio", "linkUrl", "twitUrl", "webUrl"],
   methods: {
-    findImage: function (){
+    findImage: function() {
       try {
-        return require(`@/assets/images/${this.speaker.toLowerCase()}.webp`)
+        return require(`@/assets/images/${this.speaker.toLowerCase()}.webp`);
       } catch (error) {
-        return require('@/assets/images/generic-profile.png')
+        return require("@/assets/images/generic-profile.png");
       }
     }
+  },
+  mounted() {
+    const webpMachine = new WebpMachine()
+    webpMachine.polyfillDocument()
   }
 };
 </script>
