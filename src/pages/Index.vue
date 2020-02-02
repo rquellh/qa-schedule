@@ -3,13 +3,13 @@
     <IndexNavbar :favorites="favorites" />
     <Layout>
       <v-content>
-        <SessionList :sessions="$page.session1" :favorites="favorites"/>
-        <SessionList :sessions="$page.session2" :favorites="favorites"/>
-        <SessionList :sessions="$page.session3" :favorites="favorites"/>
-        <SessionList :sessions="$page.session4" :favorites="favorites"/>
-        <SessionList :sessions="$page.session5" :favorites="favorites"/>
-        <SessionList :sessions="$page.session6" :favorites="favorites"/>
-        <SessionList :sessions="$page.session7" :favorites="favorites"/>
+        <SessionList :sessions="$page.session1" :favorites="favorites" />
+        <SessionList :sessions="$page.session2" :favorites="favorites" />
+        <SessionList :sessions="$page.session3" :favorites="favorites" />
+        <SessionList :sessions="$page.session4" :favorites="favorites" />
+        <SessionList :sessions="$page.session5" :favorites="favorites" />
+        <SessionList :sessions="$page.session6" :favorites="favorites" />
+        <SessionList :sessions="$page.session7" :favorites="favorites" />
       </v-content>
     </Layout>
   </v-app>
@@ -19,6 +19,8 @@
 import SessionList from "@/components/SessionList";
 import IndexNavbar from "@/components/IndexNavbar";
 import favorites from "@/data/favorites.json";
+import { registerRoute } from "workbox-routing";
+import { NetworkFirst } from "workbox-strategies";
 
 export default {
   components: {
@@ -30,8 +32,12 @@ export default {
       favorites
     };
   },
-  //This is to install the service worker. Change the directory if the website changes
+
   created() {
+    //This is to install the service worker. Change the directory if the website changes
+    registerRoute(new RegExp("/qa-schedule/"), new NetworkFirst());
+
+    //This is to install the service worker. Change the directory if the website changes
     if (process.isClient) {
       if ("serviceWorker" in navigator) {
         window.addEventListener("load", function() {
