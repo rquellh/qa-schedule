@@ -13,7 +13,9 @@
     "gridsome": "^0.6.9",
     "vuetify": "^1.5.18",
     "webp-hero": "0.0.0-dev.24",
-    "workbox-cli": "^4.3.1"
+    "workbox-cli": "^4.3.1",
+    "workbox-routing": "^5.0.0",
+    "workbox-strategies": "^5.0.0"
   },
   "devDependencies": {
     "webpack-node-externals": "^1.7.2"

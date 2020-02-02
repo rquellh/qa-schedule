@@ -19,8 +19,6 @@
 import SessionList from "@/components/SessionList";
 import IndexNavbar from "@/components/IndexNavbar";
 import favorites from "@/data/favorites.json";
-import { registerRoute } from "workbox-routing";
-import { NetworkFirst } from "workbox-strategies";
 
 export default {
   components: {
@@ -34,9 +32,6 @@ export default {
   },
 
   created() {
-    //This is to install the service worker. Change the directory if the website changes
-    registerRoute(new RegExp("/qa-schedule/"), new NetworkFirst());
-
     //This is to install the service worker. Change the directory if the website changes
     if (process.isClient) {
       if ("serviceWorker" in navigator) {
