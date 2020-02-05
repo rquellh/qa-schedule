@@ -2,7 +2,7 @@
   "name": "qa-schedule",
   "private": true,
   "scripts": {
-    "build": "gridsome build & npx workbox generateSW workbox-config.js",
+    "build": "gridsome build & npx workbox injectManifest workbox-config.js",
     "develop": "gridsome develop",
     "explore": "gridsome explore",
     "predeploy": "npm run build",
