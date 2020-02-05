@@ -1,10 +1,10 @@
-importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.0.0/workbox-sw.js');
+importScripts('https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js');
 
-workbox.core.skipWaiting();
-workbox.core.clientsClaim();
+workbox.skipWaiting();
+workbox.clientsClaim();
 
 // cache name
-workbox.core.setCacheNameDetails({
+workbox.setCacheNameDetails({
     prefix: 'qa-cache',
     precache: 'precache',
     runtime: 'runtime',
