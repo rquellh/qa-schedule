@@ -4,7 +4,7 @@ workbox.skipWaiting();
 workbox.clientsClaim();
 
 // cache name
-workbox.setCacheNameDetails({
+workbox.core.setCacheNameDetails({
     prefix: 'qa-cache',
     precache: 'precache',
     runtime: 'runtime',
