@@ -45,7 +45,7 @@ export default {
   mounted() {
     if (localStorage.favorites) {
       console.log("mounted");
-      this.favorites = JSON.parse(localStorage.favorites);
+      this.favorites = { ...this.favorites, ...JSON.parse(localStorage.favorites) };;
     }
   },
   //This is watching for changes in favorites and saving them to local storage
