@@ -348,12 +348,13 @@
             "website":"https://www.mabl.com/"
         },
         {
-            "speaker": "TBD",
-            "bio": "TBD",
-            "title": "TBD",
-            "abstract": "TBD",
+            "speaker": "Srini Raghavan Ramesh",
+            "bio": "Srini is an accomplished Quality Analyst with over 10 years of experience in the IT industry. He offers creative problem-solving skills with a robust experience of working in Devops environments, developing test automation frameworks and testing related to WMS. He enjoys the synergies of proving concepts, team working and collaboration, as well as learning.",
+            "title": "Dev(QA)Ops Journey",
+            "abstract": "DevOps is inconceivable without QA. In this presentation, the role of \"QA\" in \"Devops\" world will be discussed and real time project examples will be provided.\n\nNo one likes to witness bugs seeping into production, leading to innumerable issues and wasteful expenditure. At the same time, business teams can ill-afford to wait for months on end to test and release their new features into the hands of ever-demanding customers. This is why many teams have now come to embrace Devops & Agile, as their go to. DevOps represents a significant change and plays a vital role in calling for testing at frequent intervals in a more automated fashion. QA teams have a huge place in a DevOps environment and all it requires is some adaptation and a sound DevOps testing strategy. In traditional approaches, QA has effectively played the role of a gatekeeper for many successful software deliveries, but in a DevOps environment, QA plays a pivotal role in thinning the boundaries among various teams leading to faster deliveries. Traditionally, the role of QA is to detect defects, but in the DevOps age, the prime responsibility of QA team will be more on preventing defects than finding them. This approach, not only helps “speed to market” but also helps in shortening the feedback cycle. ",
             "time": "3:05 - 4:05",
-            "room": "Great Hall 3"
+            "room": "Great Hall 3", 
+            "linkedin": "https://www.linkedin.com/in/srinivasa-raghavan-ramesh-706317b7/"
         },
         {
             "speaker": "Shiva Agolla",
