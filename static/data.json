@@ -97,7 +97,7 @@
             "title": "Automated unit testing frameworks for ETL projects",
             "abstract": "One important characteristic of a “good” piece of software is that it is testable.  If you can’t test something, then how do you know it works?  How do you know that it still works when making future changes?\n\nI’ve been working in data warehouse environments for several years on ETL projects.  I’ve had success implementing automated testing in this domain, but one comment that hear frequently from ETL developers is “oh, you can’t test this Informatica workflow…it’s just too complicated…we don’t have data for that…”.  Well, I think the questions in the first paragraph still apply.  How do I know that my ETL process works if I can’t test it?\n\nIn this session we will focus on unit tests that are applicable in the ETL domain.  We will learn how to identify unit tests, how to setup these unit tests in your automated test framework, and how automating these tests might just change how you design your ETL processes.",
             "time": "10:30 - 11:30",
-            "room": "Great Hall 1 & 2",
+            "room": "Interfaith Room",
             "picture": "",
             "linkedin": "https://www.linkedin.com/in/dennis-colburn",
             "twitter": "https://twitter.com/denniscolburn"
@@ -348,12 +348,13 @@
             "website":"https://www.mabl.com/"
         },
         {
-            "speaker": "TBD",
-            "bio": "TBD",
-            "title": "TBD",
-            "abstract": "TBD",
+            "speaker": "Srini Raghavan Ramesh",
+            "bio": "Srini is an accomplished Quality Analyst with over 10 years of experience in the IT industry. He offers creative problem-solving skills with a robust experience of working in Devops environments, developing test automation frameworks and testing related to WMS. He enjoys the synergies of proving concepts, team working and collaboration, as well as learning.",
+            "title": "Dev(QA)Ops Journey",
+            "abstract": "DevOps is inconceivable without QA. In this presentation, the role of \"QA\" in \"Devops\" world will be discussed and real time project examples will be provided.\n\nNo one likes to witness bugs seeping into production, leading to innumerable issues and wasteful expenditure. At the same time, business teams can ill-afford to wait for months on end to test and release their new features into the hands of ever-demanding customers. This is why many teams have now come to embrace Devops & Agile, as their go to. DevOps represents a significant change and plays a vital role in calling for testing at frequent intervals in a more automated fashion. QA teams have a huge place in a DevOps environment and all it requires is some adaptation and a sound DevOps testing strategy. In traditional approaches, QA has effectively played the role of a gatekeeper for many successful software deliveries, but in a DevOps environment, QA plays a pivotal role in thinning the boundaries among various teams leading to faster deliveries. Traditionally, the role of QA is to detect defects, but in the DevOps age, the prime responsibility of QA team will be more on preventing defects than finding them. This approach, not only helps “speed to market” but also helps in shortening the feedback cycle. ",
             "time": "3:05 - 4:05",
-            "room": "Great Hall 3"
+            "room": "Great Hall 3", 
+            "linkedin": "https://www.linkedin.com/in/srinivasa-raghavan-ramesh-706317b7/"
         },
         {
             "speaker": "Shiva Agolla",
@@ -363,7 +364,7 @@
             "title": "New rules for smarter and faster testing",
             "abstract": "The World Quality Report is the only global report analyzing software testing and quality engineering trends. It presents an analysis of developments in agile and DevOps, artificial intelligence, automation, test environments, data, security and budgets, showing once again the importance of quality, and of the measures that are put in place to maintain it with sector focus. The 11th Edition of this report captures insight from interviews with 1,725 CIOs and senior technology leaders from 32 countries and 10 industries.\n\nPresentation:\n\u2022Artificial Intelligence can make testing smarter – but broader QA skills are needed\n\u2022Test automation cannot keep pace with the demand for rapid development\n\nPanel:\n\u2022Elite local panel discussion on the trends that are more pertinent for us here in Central Ohio\n\nLink to The World Quality Report https://www.sogeti.com/explore/reports/world-quality-report-2019/",
             "time": "10:30 - 11:30",
-            "room": "Interfaith Room",
+            "room": "Great Hall 1 & 2",
             "linkedin": "https://www.linkedin.com/in/shivaagolla",
             "linkedin2": "https://www.linkedin.com/in/mikebuening"
         }
