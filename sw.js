@@ -57,7 +57,7 @@ workbox.routing.registerRoute(
     workbox.strategies.staleWhileRevalidate({
         cacheName: 'cache-json',
         cacheExpiration: {
-            maxAgeSeconds: 60 * 60 * 24 * 7 //cache for one week
+            maxAgeSeconds: 60 * 60 * 24 * 1 //cache for one day
         }
     })
 );
