@@ -40,7 +40,7 @@ workbox.routing.registerRoute(
     })
 );
 
-// 3. cache news articles result
+// 3. html
 workbox.routing.registerRoute(
     new RegExp('\.html$'),
     workbox.strategies.staleWhileRevalidate({
@@ -50,7 +50,18 @@ workbox.routing.registerRoute(
         }
     })
 );
-  
+
+// 4. json
+workbox.routing.registerRoute(
+    new RegExp('\.json$'),
+    workbox.strategies.staleWhileRevalidate({
+        cacheName: 'cache-json',
+        cacheExpiration: {
+            maxAgeSeconds: 60 * 60 * 24 * 7 //cache for one week
+        }
+    })
+);
+
 workbox.precaching.precacheAndRoute([
   {
     "url": "404.html",
